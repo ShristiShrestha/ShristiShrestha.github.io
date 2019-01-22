@@ -1,3 +1,3 @@
 ### Implementation of Github page 
 #### Display CV
-#### link shristishrestha.github.io
+http://shristishrestha.github.io - automatic!
