@@ -63,3 +63,34 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+.svg-inline--fa-cover{
+    border-radius: 50%;
+    background: #f8f9fa;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.svg-inline--fa-cover img{
+    margin: 0 !important;
+}
+
+.svg-inline--fa-cover:hover{
+    background: #268bd2;
+    color: white;
+}
+
+.svg-inline--fa{
+    width: 20px;
+    color: #6c757d;
+}
+
+.svg-inline--fa:hover{
+    color: white;
+}
+

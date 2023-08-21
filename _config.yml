@@ -1,21 +1,21 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Shristi Shrestha
+tagline:          'Shristi Shrestha: A Personal Profile Page'
+description:      'Graduate Student Computer Science Louisiana State University Baton Rouge, LA'
+url:              https://github.com/ShristiShrestha
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Shristi'
+  url:            https://twitter.com/Shrististha7
 
 paginate:         5
 
@@ -23,4 +23,11 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/ShristiShrestha
+  hyde:           https://github.com/poole/hyde
+
+research:
+  rate_features:    https://ratefeatureappstore-e2366.web.app/
+
+plugins:
+  - jekyll-paginate
