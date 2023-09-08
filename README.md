@@ -1,9 +1,8 @@
 ---
+layout: page
 title: README
 exclude_from_nav: true
 ---
-
-# Build personal pages with Jekyll
 
 ### Setup
 - Install Ruby, 
