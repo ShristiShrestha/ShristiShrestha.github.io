@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: dev
 title: README
 exclude_from_nav: true
 ---

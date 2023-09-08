@@ -1,6 +1,11 @@
-# Develop Personal Web Page Using Hyde Template
-
 ---
+layout: dev
+title: DEVELOPMENT
+exclude_from_nav: true
+---
+
+
+# Develop Personal Web Page Using Hyde Template
 
 ## 1. Fast Reload 
 - Make `jekyll serve` reflect changes immediately similar to react
