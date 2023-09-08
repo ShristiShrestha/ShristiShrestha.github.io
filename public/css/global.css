@@ -1,0 +1,27 @@
+.no-style-ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.lead-li{
+    color: gray;
+    margin-bottom: 4px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.profile-wrapper{
+    display: inline-flex;
+    column-gap:32px; 
+    row-gap: 32px; 
+    align-items: start; 
+    margin-top:24px;
+}
+
+@media(max-width:768px) {
+    .profile-wrapper{
+        display: inline-block;
+    }
+}
