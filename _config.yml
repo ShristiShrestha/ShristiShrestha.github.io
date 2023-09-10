@@ -11,7 +11,7 @@ title:            Shristi Shrestha
 tagline:          'Shristi Shrestha: A Personal Profile Page'
 description:      'Graduate Student Computer Science Louisiana State University Baton Rouge, LA'
 url:              https://github.com/ShristiShrestha
-baseurl:          /
+baseurl:          https://shristishrestha.github.io
 
 author:
   name:           'Shristi'
