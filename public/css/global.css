@@ -28,8 +28,13 @@
 }
 
 /* profile overview */
+
+.education-ul li{
+    margin-bottom: 12px;
+}
+
 .overview-ul li p{
-    margin:0;
+    margin:0;  
 }
 
 .h-justified-flex{
