@@ -19,6 +19,7 @@
     align-items: start; 
     margin-top:24px;
     margin: auto;
+    width: 100%;
 }
 
 @media(max-width:768px) {
@@ -43,4 +44,8 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap:wrap;
+}
+
+.paper-link:hover{
+    color: black;
 }
