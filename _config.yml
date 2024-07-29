@@ -7,12 +7,12 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Shristi Shrestha
-tagline:          'Shristi Shrestha: A Personal Profile Page'
-description:      'Graduate Student Computer Science Louisiana State University Baton Rouge, LA'
-url:              https://github.com/ShristiShrestha
+title:            CHISE
+tagline:          'Computer Human Interactions and Software Engineering'
+description:      'Bunch of Geeks Identifying Problems and Inventing Solutions'
+url:              
 # https://shristishrestha.github.io
-baseurl:          https://shristishrestha.github.io
+baseurl:          
 
 author:
   name:           'Shristi'
@@ -26,9 +26,6 @@ version:          2.1.0
 github:
   repo:           https://github.com/ShristiShrestha
   hyde:           https://github.com/poole/hyde
-
-research:
-  rate_features:    https://ratefeatureappstore-e2366.web.app/
 
 plugins:
   - jekyll-paginate

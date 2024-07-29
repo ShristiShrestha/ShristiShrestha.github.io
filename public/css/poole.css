@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-size: 0.85rem;
   line-height: 1.4;
 }
@@ -280,31 +280,6 @@ tbody tr:nth-child(odd) th {
   color: #717171;
   background-color: #f9f9f9;
   border-radius: 12px;
-}
-
-
-/*
- * Container
- *
- * Center the page content.
- */
-
-.container {
-  margin: 64px auto;
-  width: 768px;
-  /* max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto; */
-}
-
-@media(max-width:768px){
-  .container{
-    width: 100%;
-    padding: 0 32px;
-  }
-  
 }
 
 
