@@ -59,6 +59,7 @@
 
 .container-labs{
     /* background-color: black; */
+    background-color: #f9f9f9;
     padding: 24px 12px;
     min-height: 30vh;
     row-gap: 28px;
