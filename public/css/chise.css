@@ -1,7 +1,7 @@
 .bg-banner{
     position: relative;
     width: 100%;
-    height: calc(100vh - 25vh - 25vh - 10vh - 50px);
+    height: calc(100vh - 30vh - 25vh - 10vh - 50px);
     background-color: gray;
     overflow: hidden;
 }
@@ -28,15 +28,26 @@
 
 .title-banner{
     width: fit-content;
-    max-width: 30vw;
-    max-height: 20vh;
-    padding: 36px 48px;
+    min-width: 400px;
+    max-width: 40vw;
+    max-height: 30vh;
+    padding: 52px;
     text-align: center;
     backdrop-filter: blur(5px) saturate(200%);
     background-color:  rgba(255, 255, 255, 0.75);
     /* background-color: rgba(255, 255, 255, 0.16); */
     border-radius: 0px 75px 0px 75px;
     border: 1px solid rgba(209, 213, 219, 0.3);
+    row-gap: 4px;
+}
+
+.title-banner p, b, h2{
+    display: block;
+    width: 100%;
+}
+
+.title-banner p{
+    text-align: center;
 }
 
 .meetup-time-loc{
@@ -47,15 +58,16 @@
 
 
 .container-labs{
-    background-color: black;
+    /* background-color: black; */
     padding: 24px 12px;
-    min-height: 25vh;
+    min-height: 30vh;
     row-gap: 28px;
 }
 
 .card-labs{
     /* min-width: 50%; */
     column-gap: 32px;
+    row-gap: 12px;
     justify-content: center;
 }
 
@@ -67,9 +79,9 @@
     position: relative;
     width: 360px;
     height: 400px;
-    padding: 36px;
+    padding: 24px;
     min-width: 10vw;
-    min-height: 13vh;
+    min-height: 14vh;
     /* border: 1px solid rgba(209, 213, 219, 0.3); */
 }
 
@@ -88,7 +100,7 @@
     z-index: -1;
 }
 
-.card h4{
+.card h3{
     text-decoration: none;
     padding: 0;
     margin: 0;
@@ -101,6 +113,7 @@
 .card:hover p{
     display: flex;
     width: 90%;
+    font-weight: bold;
     position: relative;
     text-align: center;
 }
@@ -119,7 +132,7 @@
     z-index: 1;
 }
 
-.card:hover h4{
+.card:hover h3{
     display: none;
 }
 
@@ -132,4 +145,11 @@
 .container-footer{
     min-height: 10vh;
     color: white;
+}
+
+.star-papers{
+    list-style: none;
+}
+.star-papers li{
+    text-align: center;
 }
