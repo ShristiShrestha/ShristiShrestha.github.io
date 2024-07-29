@@ -1,0 +1,135 @@
+.bg-banner{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 25vh - 25vh - 10vh - 50px);
+    background-color: gray;
+    overflow: hidden;
+}
+
+.bg-banner::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/svgs/connecting-people-blue.svg');
+    background-size: contain;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.container-banner{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    height: 30vh;
+}
+
+.title-banner{
+    width: fit-content;
+    max-width: 30vw;
+    max-height: 20vh;
+    padding: 36px 48px;
+    text-align: center;
+    backdrop-filter: blur(5px) saturate(200%);
+    background-color:  rgba(255, 255, 255, 0.75);
+    /* background-color: rgba(255, 255, 255, 0.16); */
+    border-radius: 0px 75px 0px 75px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.meetup-time-loc{
+    background-color: rgb(240, 241, 242);
+    padding: 4px 12px;
+    border-radius: 12px;
+}
+
+
+.container-labs{
+    background-color: black;
+    padding: 24px 12px;
+    min-height: 25vh;
+    row-gap: 28px;
+}
+
+.card-labs{
+    /* min-width: 50%; */
+    column-gap: 32px;
+    justify-content: center;
+}
+
+.card-labs a{
+    text-decoration: none;
+}
+
+.card{
+    position: relative;
+    width: 360px;
+    height: 400px;
+    padding: 36px;
+    min-width: 10vw;
+    min-height: 13vh;
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
+}
+
+.slide-in {
+    position: absolute;
+    top: 0;
+    right: -2%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    /* padding: 12px; */
+    transition: right 0.5s ease; 
+    /* display: none; */
+    background-color: black;
+    z-index: -1;
+}
+
+.card h4{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card:hover{
+    background-color: #428bca;
+}
+
+.card:hover p{
+    display: flex;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.card:hover .slide-in {
+    top: 0;
+    right: 0;
+    width: 100%; 
+    display: flex;
+    background-color: #428bca;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    /* display: flex; */
+    transition: right 0.5s ease; 
+    z-index: 1;
+}
+
+.card:hover h4{
+    display: none;
+}
+
+.container-research{
+    min-height: 25vh;
+    padding: 24px 12px;
+    row-gap: 28px;
+}
+
+.container-footer{
+    min-height: 10vh;
+    color: white;
+}

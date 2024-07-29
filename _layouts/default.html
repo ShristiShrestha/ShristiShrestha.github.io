@@ -3,11 +3,11 @@
 
   {% include head.html %}
 
-  <body style="overflow: hidden;">
-    <div class="container-fluid bg-white">
+  <body style="overflow: hidden; margin-top: -8px">
+    <div class="container-fluid bg-white" style="padding: 0;">
       {{ content }}
     </div>
 
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ site.baseurl }}/public/assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
