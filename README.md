@@ -4,6 +4,10 @@ title: README
 exclude_from_nav: true
 ---
 
+##  Deploy
+
+`scp -r _site/* chise@webhost.cse.lsu.edu:/home/chise/chise.cse/ -p`
+
 ### Setup
 - Install Ruby and Jekyll from [here](https://jekyllrb.com/docs/installation/windows/)
 - To add dependencies:
