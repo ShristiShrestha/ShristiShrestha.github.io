@@ -54,18 +54,42 @@
 
 /* custom navigation styles */
 
-.main-nav a{
-    color: darkgray;
-}
-
-.nav-link:hover{
-    text-decoration: underline;
-    color: white;
-}
-
 .navbar{
     --bs-navbar-padding-y: 0 !important;
 }
+
+.nav-item{
+    padding: 8px;
+}
+
+.nav-item:hover{
+    background-color: aliceblue;
+    color: black !important;
+}
+
+.nav-item:hover a{
+    color: black;
+}
+
+.nav-item:hover path{
+    fill: black;
+}
+
+.nav-link:hover{
+    color: black !important;
+    text-decoration: none;
+}
+
+.nav-link:active{
+    color: black !important;
+    text-decoration: none;
+}
+
+
+
+
+
+/* text colors */
 
 .text-gray{
     color: gray;
@@ -74,6 +98,8 @@
 .text-blue{
     color: blue;
 }
+
+/* spacing */
 
 .no-padding{
     padding:0 !important;

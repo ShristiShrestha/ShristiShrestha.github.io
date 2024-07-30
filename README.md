@@ -6,7 +6,7 @@ exclude_from_nav: true
 
 ##  Deploy
 
-`scp -r _site/* chise@webhost.cse.lsu.edu:/home/chise/chise.cse/ -p`
+`scp -r _site/* chise@webhost.cse.lsu.edu:/home/chise/chise.cse`
 
 ### Setup
 - Install Ruby and Jekyll from [here](https://jekyllrb.com/docs/installation/windows/)
