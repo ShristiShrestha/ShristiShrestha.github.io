@@ -4,28 +4,29 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: false
+# relative_permalinks: false
+# defaults:
+# - scope:
+#   path: ""
+#   type: "pages"
+# values:
+#   permalink: "/:title"
 
 # Setup
 title:            CHISE
 tagline:          'Computer Human Interactions and Software Engineering'
-description:      'Bunch of Geeks Identifying Problems and Inventing Solutions'
+description:      'A Bunch of Geeks Solving Problems'
 url:              
-# https://shristishrestha.github.io
+
 baseurl:          
 
-author:
-  name:           'Shristi'
-  url:            https://twitter.com/Shrististha7
+include:
+  - public
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
-
-github:
-  repo:           https://github.com/ShristiShrestha
-  hyde:           https://github.com/poole/hyde
 
 plugins:
   - jekyll-paginate

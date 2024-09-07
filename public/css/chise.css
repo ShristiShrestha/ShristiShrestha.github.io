@@ -113,7 +113,7 @@
 .slide-in {
     position: absolute;
     top: 0;
-    right: -2%;
+    right: -5%;
     width: 100%;
     height: 100%;
     color: white;
@@ -126,11 +126,21 @@
     border-radius: 12px;
 }
 
-.card-lab h3{
+.card-lab p{
     text-decoration: none;
     padding: 0;
     margin: 0;
     color: #428bca;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+.slide-in p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #428bca;
+    font-size: 1rem;
 }
 
 .card-lab:hover{

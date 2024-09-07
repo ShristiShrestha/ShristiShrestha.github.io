@@ -75,6 +75,10 @@
     fill: black;
 }
 
+.nav-item:hover a{
+    color: black !important;
+}
+
 .nav-link:hover{
     color: black !important;
     text-decoration: none;

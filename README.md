@@ -18,3 +18,7 @@ exclude_from_nav: true
 - Test site
   - run `jekyll serve`
   - [default] run at localhost:4000
+
+
+# Notes
+- In Jekyll, the files inside the _posts folder need to follow a specific naming convention: YEAR-MONTH-DAY-title.md (e.g., 2024-08-12-my-first-post.md). This convention is required because Jekyll uses the date in the filename to generate permalinks, organize posts by date, and provide features like chronological ordering.
