@@ -94,13 +94,16 @@
 }
 
 /* text colors */
+.text-black{
+    color: black !important;
+}
 
 .text-gray{
-    color: gray;
+    color: gray !important;
 }
 
 .text-blue{
-    color: blue;
+    color: blue !important;
 }
 
 /* spacing */
