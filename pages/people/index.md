@@ -4,7 +4,7 @@ permalink: /about-us/
 layout: default
 ---
 
-<div class="container chise-page">
+<div class="chise-page">
     <h3 class="page-title-with-home">About Us</h3>
     <div class="people-list">
         <h4>Faculty</h4>

@@ -4,9 +4,9 @@ permalink: /projects/
 layout: default
 ---
 
-<div class="container chise-page">
+<div class="chise-page" style="height: calc(100vh - 100px); overflow-y:hidden;">
     <h3 class="page-title-with-home"> Projects</h3>
     <div class="projects-list">
-        <h4 class="post-here">Updates will be posted here...</h4>
+        <p class="post-here">Updates will be posted here...</p>
     </div>
 </div>

@@ -1,0 +1,46 @@
+.home-page{
+    row-gap: 12px;
+    column-gap: 12px;
+}
+
+.home-chise-title{
+    column-gap: 8px;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.home-recent-news{
+    height: calc(100vh - 100px);
+    padding-top: 16px;
+    width: 68%;
+}
+
+.home-gathering{
+    height: calc(100vh - 100px);
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    width: 30%;
+}
+
+.gathering-box{
+    width: 100%;  
+}
+
+.gathering-title {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.gathering-title p {
+    width: 100%;
+    padding: 12px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.gathering-content{
+    padding: 12px 24px;
+    row-gap: 2px;
+    border-bottom: 1px solid #efefef;
+}

@@ -4,15 +4,15 @@
         "url": "/"
     },
     {
-        "title": "Our Labs",
-        "url": "/#ourlabs"
-    },
-    {
-        "title": "News",
-        "url": "/news"
-    },
-    {
         "title": "Projects",
         "url": "/projects"
+    },
+    {
+        "title": "Resources",
+        "url": "/resources"
+    },
+    {
+        "title": "About Us",
+        "url": "/about-us"
     }
 ]

@@ -1,7 +1,45 @@
 .news-list{
-    min-height: calc(100vh - 50px);
+    /* min-height: calc(100vh - 50px); */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .post-here{
     font-weight: normal;
+}
+
+.news-card{
+    width: 100%;
+    padding: 16px 0;
+    align-items: center;
+    column-gap: 6px;
+    row-gap: 12px;
+    border-bottom: 1px solid #efefef;
+}
+
+.news-card:hover .news-card-title{
+    color: blue;
+    text-decoration: underline;
+}
+
+.news-card-title{
+    font-size: 1.35em;
+    padding: 0;
+    margin: 0;
+}
+
+.news-card-desc{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+#yt-logo-updated_yt14{
+    width: 35px;
+    height: 25px;
+    margin-right: 8px;
+    align-self: flex-end;
+    display: inline-flex;
 }
