@@ -89,9 +89,9 @@
     text-decoration: none;
 }
 
-
-
-
+.text-underline{
+    text-decoration: underline;
+}
 
 /* text colors */
 
