@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -15,4 +15,29 @@
             {% endfor %}
         </ul>
     </div>
-</nav>
+</nav> -->
+
+<!-- navbar-inverse  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark no-padding"> 
+    <div style="padding: 0; position: relative; left: 0; right: 0; top: 0; width: 100%;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggler h-start-flex" style="background-color: transparent; padding: 12px; border: none;"
+                data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="fill:white; height: 25px; width: 25px;">
+                    <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
+                </svg>
+                <h4 class="text-white no-margin" style="margin-left: 8px !important;">CHISE</h4>
+            </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                {% for item in site.data.navbar %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+  </nav>
