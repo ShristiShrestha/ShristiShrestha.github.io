@@ -3,6 +3,32 @@
     column-gap: 12px;
 }
 
+.welcome-jumbotron{
+    margin:0 !important; 
+    background-color: white !important;
+    margin-bottom:16px !important;
+    padding: 18px 0 !important;
+    border-radius: 6px;
+    /* min-height: 100px; */
+    /* border: 1px solid white; */
+}
+
+.welcome-jumbotron h1{
+    font-size: 2rem !important;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    padding: 0;
+    margin:0;
+    font-weight: 400 !important;
+}
+
+.welcome-jumbotron p{
+    font-size: 1.5rem !important;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
 .home-chise-title{
     column-gap: 8px;
     border-bottom: 1px solid lightgray;
@@ -43,4 +69,20 @@
     padding: 12px 24px;
     row-gap: 2px;
     border-bottom: 1px solid #efefef;
+}
+
+@media(max-width:1024px){
+    .home-recent-news{
+        width: 100%;
+    }
+    .home-gathering{
+        width: 100%;
+        order: -1;
+        margin-top: 24px;
+        height: fit-content;
+    }
+
+    .home-chise-title h4{
+        width: 80%;
+    }
 }

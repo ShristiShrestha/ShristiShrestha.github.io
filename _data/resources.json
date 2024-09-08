@@ -1,9 +1,14 @@
-{
-    "YouTube": [
-        {
-            "title": "Grounded Theory by Graham R Gibbs",
-            "description": "In this two part video, Graham R Gibbs introduces the idea of developing grounded theory and discusses some of the core elements  of the approach to qualitative data analysis. See: Gibbs, Graham Robert. (2012) 'Grounded theory, coding and computer-assisted analysis'. In S. Becker, A. Bryman & H. Ferguson (eds.), Understanding Research for Social Policy and Social Work: Themes, Methods and Approaches. 2nd edn. Bristol: Policy Press. pp. 337-343.",
-            "url": "https://www.youtube.com/watch?v=4SZDTp3_New&list=PL8CB91CC62C1C2C7E"
-        }
-    ]
-}
+[
+    {
+        "icon": "svgs/youtube.html",
+        "title": "Grounded Theory by Graham R Gibbs",
+        "description": "In this two part video, Graham R Gibbs introduces the idea of developing grounded theory and discusses some of the core elements  of the approach to qualitative data analysis. See: Gibbs, Graham Robert. (2012) 'Grounded theory, coding and computer-assisted analysis'. In S. Becker, A. Bryman & H. Ferguson (eds.), Understanding Research for Social Policy and Social Work: Themes, Methods and Approaches. 2nd edn. Bristol: Policy Press. pp. 337-343.",
+        "url": "https://www.youtube.com/watch?v=4SZDTp3_New&list=PL8CB91CC62C1C2C7E"
+    },
+    {
+        "icon": "svgs/github.html",
+        "title": "Track your SE Engineering Research Venues in one place",
+        "description": "Deadline countdowns for academic conferences in Software Engineering",
+        "url": "https://se-deadlines.github.io/"
+    }
+]

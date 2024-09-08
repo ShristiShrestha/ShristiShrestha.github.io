@@ -6,7 +6,9 @@ exclude_from_nav: true
 
 ##  Deploy
 
-`scp -r _site/* chise@webhost.cse.lsu.edu:/home/chise/chise.cse`
+- `scp -r _site/* chise@webhost.cse.lsu.edu:/home/chise/chise.cse`
+- looks like apache2 is not pointing to the home chise dir, so let's make that sure
+  - `cp -r /home/chise/chise.cse/* /var/www/html/chise.cse`
 
 ### Setup
 - Install Ruby and Jekyll from [here](https://jekyllrb.com/docs/installation/windows/)
