@@ -4,6 +4,6 @@ permalink: /resources/
 layout: default
 ---
 
-<div class="">
+<div class="container chise-page">
     Hello Resources!
 </div>

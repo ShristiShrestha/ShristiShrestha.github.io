@@ -1,0 +1,63 @@
+.people-list:nth-of-type(1){
+    margin-bottom: 48px;
+    /* overflow-y: scroll; */
+}
+
+.people-list{
+    margin-top: 12px;
+}
+
+.people-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.people-card{
+    /* padding: 12px; */
+    border-radius: 4px;
+    /* background: white; */
+    border: 1px solid lightgray;
+    min-width: 200px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+}
+
+.people-card p{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+}
+
+.people-card a:hover p{
+    text-decoration: underline;
+}
+
+.people-card a:hover svg{
+    text-decoration: underline;
+}
+
+.profile-details{
+    position: absolute;
+    /* left: 0;
+    right: 0; */
+    bottom: 0;
+    width: 100%;
+    padding: 10px 12px;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.profile-details svg{
+    width: 12px;
+    height: 12px;
+    fill: #fcfcff;
+}

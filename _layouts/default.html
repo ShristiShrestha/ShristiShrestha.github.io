@@ -3,24 +3,29 @@
 
   {% include head.html %}
 
-  <body style="overflow: hidden; height: 100%; position: absolute; left:0; right:0; bottom:0; top:0;">
-    <div class="container-fluid bg-white" style="padding: 0;">
+  <body style="position: relative; left:0; right:0; bottom:0; top:0; 
+  scrollbar-width: none;  overflow: hidden; height: 100vh;">
+    <div class="container-fluid bg-white" style="padding: 0; height: 100%;">
+      <div style="position: absolute; left:0; right:0; bottom:0; top:0; 
+      height: calc(100vh - 0px); overflow-y:scroll; overflow-x:hidden; scrollbar-width: none; ">
+         
+          <div class="h-center-flex container-fluid bg-dark container-nav" 
+               style="height:50px; padding: 0;">
+              <div class="container h-justified-flex">
+                  <a href="/"><h4 class="text-white no-margin site-title">CHISE</h4></a>
+                  {% include _components/navbar.html %}
+              </div>
+          </div>
 
-      <div style="height: 100vh; overflow-y:scroll; overflow-x:hidden; position: absolute; left:0; right:0; bottom:0; top:0;">
-        <div class="h-center-flex container-fluid bg-dark container-nav" style="height:50px; padding: 0;">
-            <div class="container h-justified-flex">
-                <h4 class="text-white no-margin">CHISE</h4>
-                {% include _components/navbar.html %}
-            </div>
-        </div>
-        <div style="position:relative; left: 0; right:0; top: 0;">
-           {{ content }}
-           {% include _components/footer.html %}
-        </div>
+          <div>
+            {{ content }}
+          </div>   
+
+          {% include _components/footer.html %}
+
+      </div>
     </div>
-    
-      
-    </div>
+
     <script src="{{ site.baseurl }}/public/assets/js/custom.js"></script>
     <script src="{{ site.baseurl }}/public/assets/js/bootstrap.bundle.min.js"></script>
     <script src="{{ site.baseurl }}/public/assets/js/jquery-3.6.0.min.js"></script>

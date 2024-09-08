@@ -4,6 +4,6 @@ permalink: /privacy/
 layout: default
 ---
 
-<div class="">
+<div class="container chise-page">
     Hello Privacy Policy!
 </div>

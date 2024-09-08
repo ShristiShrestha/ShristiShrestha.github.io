@@ -1,9 +1,22 @@
+.site-title:hover{
+    cursor: pointer;
+}
+
 .container-nav{
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
     height: 50px;
+}
+
+.home-page{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
 }
 
 .bg-banner{
@@ -180,8 +193,22 @@
 }
 
 .container-footer{
-    min-height: 10vh;
+    height: 50px;
     color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right:0;
+    align-items: center;
+}
+
+.container-footer p{
+    margin: 0;
+    padding: 0;
+}
+
+.container-footer a:hover p{
+    text-decoration: underline;
 }
 
 .star-papers{
@@ -257,6 +284,41 @@
 .card-paper:hover .badge-paper p, a{
     text-decoration: none !important;
     color: white !important;
+}
+
+.chise-page{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    /* height: calc(100vh - 100px); */
+    /* overflow-y: hidden; */
+    width: 1024px;
+    padding: 16px 0;
+    margin: auto;
+    /* padding: 12px; */
+}
+
+.page-title-with-home {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    column-gap: 8px;
+    margin-bottom: 12px;
+}
+
+.page-title-with-home svg:nth-child(1){
+    width: 20px;
+    height: 20px;
+    fill: gray;
+}
+
+.page-title-with-home svg:nth-child(2){
+    width: 15px;
+    height: 15px;
+    fill: lightgray;
 }
 
 @media(max-width:1024px){

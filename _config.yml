@@ -4,13 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-# relative_permalinks: false
-# defaults:
-# - scope:
-#   path: ""
-#   type: "pages"
-# values:
-#   permalink: "/:title"
+relative_permalinks: false
 
 # Setup
 title:            CHISE

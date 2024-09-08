@@ -1,0 +1,7 @@
+.news-list{
+    min-height: calc(100vh - 50px);
+}
+
+.post-here{
+    font-weight: normal;
+}

@@ -1,116 +1,96 @@
 {
-    "professors": [
+    "faculty": [
         {
             "name": "Mahmoud Jasim",
             "profile": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=M9M5SdwAAAAJ&citpid=3",
             "interests": "Human-Computer Interaction, Digital Civics, Information Visualization",
-            "social": [
-                {
-                    "portfolio": "https://csc.lsu.edu/~mjasim/",
-                    "scholar": "https://scholar.google.com/citations?user=M9M5SdwAAAAJ&hl=en&oi=ao"
-                }
-            ]
+            "social": {
+                "portfolio": "https://csc.lsu.edu/~mjasim/",
+                "scholar": "https://scholar.google.com/citations?user=M9M5SdwAAAAJ&hl=en&oi=ao"
+            }
         },
         {
             "name": "Anas Mahmoud",
             "profile": "https://csc.lsu.edu/~mahmoud/images/nash.jpg",
             "interests": "Requirements Engineering, Static Code Analysis, and Human-Computer Interaction",
-            "social": [
-                {
-                    "portfolio": "https://csc.lsu.edu/~mahmoud/",
-                    "scholar": "https://scholar.google.com/citations?user=t6_z3zYAAAAJ&hl=en&oi=ao"
-                }
-            ]
+            "social": {
+                "portfolio": "https://csc.lsu.edu/~mahmoud/",
+                "scholar": "https://scholar.google.com/citations?user=t6_z3zYAAAAJ&hl=en&oi=ao"
+            }
         },
         {
             "name": "David Shepherd",
             "profile": "https://davidshepherd.weebly.com/uploads/9/0/7/1/9071587/editor/shepherdfamily-26_5.jpg?1569425211",
             "interests": "Software Engineering, End-User Programming, CS Education, Robotics",
-            "social": [
-                {
-                    "portfolio": "https://davidshepherd.weebly.com/",
-                    "scholar": "https://scholar.google.com/citations?hl=en&user=bQTU4-AAAAAJ"
-                }
-            ]
+            "social": {
+                "portfolio": "https://davidshepherd.weebly.com/",
+                "scholar": "https://scholar.google.com/citations?hl=en&user=bQTU4-AAAAAJ"
+            }
         },
         {
             "name": "Andrew Webb",
             "profile": "https://www.lsu.edu/eng/cse/people/faculty/photos/andrew.webb.jpg",
             "interests": "Human-Computer Interaction, Creativity, Interactive Media, and Information Visualization",
-            "social": [
-                {
-                    "portfolio": "https://csc.lsu.edu/~webb/",
-                    "scholar": "https://scholar.google.com/citations?user=UvaN_AcAAAAJ&hl=en&oi=ao"
-                }
-            ]
+            "social": {
+                "portfolio": "https://csc.lsu.edu/~webb/",
+                "scholar": "https://scholar.google.com/citations?user=UvaN_AcAAAAJ&hl=en&oi=ao"
+            }
         }
     ],
     "students": [
         {
             "name": "Saramsh Gautam",
-            "profile":"",
+            "profile":"/public/jpgs/profile-male.jpg",
             "interests": "",
-            "social": [
-                {
-                    "portfolio": "",
-                    "scholar": ""
-                }
-            ]
+            "social": {
+                "portfolio": "",
+                "scholar": ""
+            }
         },
         {
             "name": "Vimal Thomas Joseph",
-            "profile":"",
+            "profile":"/public/jpgs/profile-male.jpg",
             "interests": "",
-            "social": [
-                {
-                    "portfolio": "",
-                    "scholar": ""
-                }
-            ]
+            "social": {
+                "portfolio": "",
+                "scholar": ""
+            }
         },
         {
             "name": "Jyotsnamayee Ram",
             "profile": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=22Sn4FwAAAAJ&citpid=2",
             "interests": "HCI, Mixed Reality, Visualization, Computational Design",
-            "social": [
-                {
-                    "portfolio": "",
-                    "scholar": "https://scholar.google.com/citations?user=22Sn4FwAAAAJ&hl=en&oi=ao"
-                }
-            ]
+            "social": {
+                "portfolio": "",
+                "scholar": "https://scholar.google.com/citations?user=22Sn4FwAAAAJ&hl=en&oi=ao"
+            }
         },
         {
             "name": "Nushrat Jahan Ria",
-            "profile":"",
+            "profile":"/public/jpgs/profile-male.jpg",
             "interests": "",
-            "social": [
-                {
-                    "portfolio": "",
-                    "scholar": ""
-                }
-            ]
+            "social": {
+                "portfolio": "",
+                "scholar": ""
+            }
         },
         {
             "name": "Shristi Shrestha",
             "profile":"https://shristishrestha.github.io/public/profile.jpg",
             "interests": "appstore analysis, user feedback, natural language processing",
-            "social": [
-                {
-                    "portfolio": "https://shristishrestha.github.io/",
-                    "scholar": "https://scholar.google.com/citations?user=NHIjzpEAAAAJ"
-                }
-            ]
+            "social": {
+                "portfolio": "https://shristishrestha.github.io/",
+                "scholar": "https://scholar.google.com/citations?user=NHIjzpEAAAAJ"
+            }
         },
         {
             "name": "Vyri Yang",
-            "profile":"",
+            "profile":"/public/jpgs/profile-male.jpg",
             "interests": "",
-            "social": [
-                {
-                    "portfolio": "",
-                    "scholar": ""
-                }
-            ]
+            "social":  {
+                "portfolio": "",
+                "scholar": ""
+            }
         }
     ]
 }
