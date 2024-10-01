@@ -30,6 +30,26 @@
     bottom: 0;
 }
 
+.people-card:hover{
+    border: 1px solid black;
+    transform: scale(1.01);
+}
+
+.people-card:hover .profile-details{
+    background: white;
+    border-top: 1px solid black;
+}
+
+.people-card:hover p{
+    color: black;
+    font-weight: bolder;
+}
+
+.people-card:hover svg{
+    color: black;
+    fill: black;
+}
+
 .people-card p{
     padding: 0;
     margin: 0;
