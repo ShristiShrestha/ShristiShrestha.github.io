@@ -6,8 +6,8 @@
 .welcome-jumbotron{
     margin:0 !important; 
     background-color: white !important;
-    margin-bottom:16px !important;
-    padding: 18px 0 !important;
+    /* margin-bottom:16px !important; */
+    padding: 18px 6px !important;
     border-radius: 6px;
     /* min-height: 100px; */
     /* border: 1px solid white; */
@@ -55,14 +55,18 @@
 
 .gathering-title {
     width: 100%;
+    /* background-color: black; */
     background-color: #f2f2f2;
 }
 
 .gathering-title p {
     width: 100%;
     padding: 12px 0;
+    /* font-style: italic; */
+    /* font-weight: bold; */
     margin: 0;
     text-align: center;
+    color: black;
 }
 
 .gathering-content{

@@ -8,7 +8,9 @@
 
 .resources-card{
     width: 100%;
-    padding: 16px 0;
+    padding: 20px 0;
+    /* padding-left: 12px; */
+    /* border-left: 1px solid lightgray; */
     align-items: center;
     column-gap: 6px;
     row-gap: 12px;
@@ -21,17 +23,28 @@
     column-gap: 8px;
     font-size: 1.35em;
     font-weight: normal;
+    /* width: 100%;
+    display: block; */
 }
 
 .resources-card-desc{
     padding: 0;
     margin: 0;
-    font-size: 1.1em !important;
+    font-size: 1.12em !important;
+    /* width: 100%; */
+    /* display: block; */
 }
 
 .resources-card:hover .resources-card-title p{
     color: blue;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+.resources-card:hover{
+    background-color: #fcfcfc;
+    border-bottom: 1px solid lightgray;
+    /* padding-left: 12px; */
+    /* transform: scale(1.01); */
 }
 
 @media(max-width: 1024px){
