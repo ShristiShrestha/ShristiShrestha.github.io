@@ -1,0 +1,22 @@
+[
+    {
+        "alt": "Google Scholar",
+        "icon": "svgs/google-scholar.html",
+        "url": "https://scholar.google.com/citations?user=NHIjzpEAAAAJ"
+    },
+    {
+        "alt": "Linkedin",
+        "icon": "svgs/linkedin.html",
+        "url": "https://www.linkedin.com/in/shristi-shrestha-a77264164/"
+    },
+    {
+        "alt": "Twitter",
+        "icon": "svgs/twitter.html",
+        "url": "https://twitter.com/Shrististha7"
+    },
+    {
+        "alt": "GitHub",
+        "icon": "svgs/github.html",
+        "url": "https://github.com/ShristiShrestha"
+    }
+]

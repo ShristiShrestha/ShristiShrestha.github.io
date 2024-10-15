@@ -57,3 +57,9 @@
 .paper-link:hover{
     color: black;
 }
+
+.about-me-goals{
+    font-weight: normal;
+    padding: 0 2px;
+    background-color: yellow;
+}

@@ -1,0 +1,9 @@
+<div style="display: flex; align-items: center;column-gap: 8px;row-gap: 8px;">
+    {% for item in site.data.contact %}
+        <div class="svg-inline--fa-cover">
+            <a href="{{item.url}}" style="text-decoration: none;" target="_blank">
+                {% include {{item.icon}} %}
+            </a>
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,16 @@
+[
+    {
+        "position": "PhD",
+        "course": "Computer Science",
+        "university": "Louisiana State University",
+        "country": "USA",
+        "duration": "2022-present"
+    },
+    {
+        "position": "Bachelor",
+        "course": "Computer Engineering",
+        "university": "Pulchowk Campus, Tribhuwan University",
+        "country": "Nepal",
+        "duration": "2015-2019"
+    }
+]
