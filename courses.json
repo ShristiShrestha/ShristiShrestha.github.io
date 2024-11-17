@@ -1,0 +1,325 @@
+{
+  "session_codes": [
+    "XszBFWXF",
+    "UrIqaxqs",
+    "fTPDMtLU",
+    "jbcjxCta",
+    "BMRoevAL",
+    "IwAhwByK",
+    "sPnTCgjW",
+    "uHctnrRK",
+    "uRZHVwIC",
+    "RHqYMcwo",
+    "VKhMWxwz",
+    "oTAZDflr",
+    "HhTCKtcB",
+    "bmdJfBRW",
+    "SvRueBnZ",
+    "cZOImSIv",
+    "TMEMSLAy",
+    "RXitcHDn",
+    "kfXaQSWn",
+    "NqeQNkBb",
+    "sTZoRRcP",
+    "kvZJhwQA",
+    "AerZHeAd",
+    "uAldbLPs",
+    "jAFUmQLX",
+    "eeSaBABZ",
+    "hZbSDvUZ"
+  ],
+  "factors": {
+    "F1": {
+      "description": "Negatively Anchoring in positively rated courses",
+      "anchors": ["G1", "G2"]
+    },
+    "F2": {
+      "description": "Positively Anchoring in negatively rated courses",
+      "anchors": ["G3", "G4"]
+    },
+    "F3": {
+      "description": "No Anchoring in positively rated courses",
+      "anchors": ["G5", "G6"]
+    },
+    "F4": {
+      "description": "No Anchoring in negatively rated courses",
+      "anchors": ["G7", "G8"]
+    }
+  },
+  "courses_anchors": {
+    "G1": {
+      "description": "Course is rated EXTREMELY POSITIVELY in overall and is anchored NEGATIVELY",
+      "anchor": "OVR_EXT_POS__NEG_ANCHOR"
+    },
+    "G2": {
+      "description": "Course is rated AVERAGE POSITIVELY in overall and is anchored NEGATIVELY",
+      "anchor": "OVR_AVG_POS__NEG_ANCHOR"
+    },
+    "G3": {
+      "description": "Course is rated EXTREMELY NEGATIVELY in overall and is anchored POSITIVELY",
+      "anchor": "OVR_EXT_NEG__POS_ANCHOR"
+    },
+    "G4": {
+      "description": "Course is rated AVERAGE NEGATIVELY in overall and is anchored POSITIVELY",
+      "anchor": "OVR_AVG_NEG__POS_ANCHOR"
+    },
+    "G5": {
+      "description": "Course is rated EXTREMELY POSITIVELY in overall and is NOT anchored",
+      "anchor": "OVR_EXT_POS__NO_ANCHOR"
+    },
+    "G6": {
+      "description": "Course is rated AVERAGE POSITIVELY in overall and is NOT anchored",
+      "anchor": "OVR_AVG_POS__NO_ANCHOR"
+    },
+    "G7": {
+      "description": "Course is rated EXTREMELY NEGATIVELY in overall and is NOT anchored",
+      "anchor": "OVR_EXT_NEG__NO_ANCHOR"
+    },
+    "G8": {
+      "description": "Course is rated AVERAGE NEGATIVELY in overall and is NOT anchored",
+      "anchor": "OVR_AVG_NEG__NO_ANCHOR"
+    }
+  },
+  "courses": {
+    "C1": {
+      "anchor": "G1",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 4.8
+    },
+    "C2": {
+      "anchor": "G2",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 3.7
+    },
+    "C3": {
+      "id": "G3",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 1.2
+    },
+    "C4": {
+      "id": "G4",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 3.3
+    },
+    "C5": {
+      "id": "G5",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 4.8
+    },
+    "C6": {
+      "id": "G6",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 3.7
+    },
+    "C7": {
+      "id": "G7",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 1.2
+    },
+    "C8": {
+      "id": "G8",
+      "name": "Music Education",
+      "prof": "",
+      "rating": 3.3
+    }
+  },
+  "reviews": {
+    "1": [
+      {
+        "id": "id_1__rev_1",
+        "rating": 1,
+        "review": "Do not take this class. Professor is very unhelpful but mandatory and I feel as though everything makes less sense after. Very much a teach yourself class, I'd recommend a different professor. Very un-positive person and not very understanding.",
+        "source": "MATH 1022 Stephanie H. Kurtz"
+      },
+      {
+        "id": "id_2__rev_1",
+        "rating": 1,
+        "review": "Professor was horrible. Always 10 minutes late and was out for 2 months for surgery and never communicated with students. Cancelled classes a lot. Professor assigns work and then doesn't grade for weeks.",
+        "source": "ENGL 1001 Michele Turner"
+      },
+      {
+        "id": "id_3__rev_1",
+        "rating": 1,
+        "review": "Does not care for the interest of other students. Basic music principles are too difficult to understand and is not very good at re-delivering the information. I would recommend taking somebody else's class. ",
+        "source": "ECON 2030 Charles Roussel"
+      },
+      {
+        "id": "id_4__rev_1",
+        "rating": 1,
+        "review": "Such a rude professor. Very condescending. Doesn't care about you learning, just wants to talk about how much they know and how much you don't. Probably the worst professor I have come across. At least the tests are online but it's really hard to find answers.",
+        "source": "ECON 2030 Charles Roussel"
+      },
+      {
+        "id": "id_5__rev_1",
+        "rating": 1,
+        "review": "Wonderful person but the 1 star review is spot on. Everyone in the class cheats openly. If you want free A and don't care about learning, this is your professor. If that's not you, absolutely do not take this. On the final, literally caught students cheating, gave them '1 warning before we talk in my office'",
+        "source": "EE 3150 Xue-Bin Liang"
+      },
+      {
+        "id": "id_6__rev_1",
+        "rating": 1,
+        "review": "Class seems super repetitive, going off of any notes and states NONE of their expectations in class unless it's for a project they want you to do. My grade is awful, I can't find any homeworks I've missed and attendance recording method is strange and inconsistent. Would not take again.",
+        "source": "ENTR 3111 Sohrab Soleimanof"
+      }
+    ],
+    "2": [
+      {
+        "id": "id_1__rev_2",
+        "rating": 2,
+        "review": "This is second time this professor been teaching a class and first time teaching this course. So, yeah, it's very rough to be taught something that professor hasn't even learned yet. Rough grader who expects literal perfection and grades quizzes based on the exact stuff the professor is looking for.",
+        "source": "ART 2055 George Robins"
+      },
+      {
+        "id": "id_2__rev_2",
+        "rating": 2,
+        "review": "Yaps like no other. Most of the classes are off topic rants and usually political. Honestly this class is fine but actually going to class is genuinely painful. Moves super quickly through projects. Can be a lot if you don't have good music background but not hard to get an A.",
+        "source": "ENGL 1001 Derek Moseley"
+      },
+      {
+        "id": "id_3__rev_2",
+        "rating": 2,
+        "review": "Did not care for this person as a professor. Don't take if you're not interested in learning about a specific instrument. Attendance was not required but will hold it against you if you don't log on. Professor assumes you are incapable of learning technical aspects of music.",
+        "source": "ENGL 2231 Lisa Nohner"
+      },
+      {
+        "id": "id_4__rev_2",
+        "rating": 2,
+        "review": "Really enjoys teaching, but does not know how to explain differently. Doesn't give any homework or extra credit. Your grades in this class are based on only 4 exams. I recommend trying to gain your own understanding from YouTube videos before going to class.",
+        "source": "ECON 2030 Charles Roussel"
+      },
+      {
+        "id": "id_5__rev_2",
+        "rating": 2,
+        "review": "You like being bored? Do you want a teacher who constantly sounds like they hate being there? Then look no further! Exams weren't hard but I felt extremely unprepared for them. Stopped going to class halfway through because they felt unnecessary. Assignments are easy though.",
+        "source": "MKT Andrew Long"
+      },
+      {
+        "id": "id_6__rev_2",
+        "rating": 2,
+        "review": "Despite attendance being 40% of the grade, Professor does nothing to warrant you paying attention. In-class exercises are not easy for 1st time learners, even TA's are useless. Unfortunately, this is the only option so have fun.",
+        "source": "EE 1810 Morteza Naraghi-P"
+      }
+    ],
+    "3": [
+      {
+        "id": "id_1__rev_3",
+        "rating": 3,
+        "review": "Not a super easy blow off class like you would think. QR codes for attendance everyday and you have to attend 3 sessions (which cost money) and write essays about each of them. Lost of online assignments and the tests are proctored online. Only two tests and both are open notes which is nice.",
+        "source": "THTR 1020 Shannon Walsh"
+      },
+      {
+        "id": "id_2__rev_3",
+        "rating": 3,
+        "review": "Personality is definitely not one to like but will held you accountable which made me have a good grade. Professor will just make you very upset most of the time. Homeworks and quizzes are due at 9PM which really sucks.",
+        "source": "MATH 1021 Stephanie H. Kurtz"
+      },
+      {
+        "id": "id_3__rev_3",
+        "rating": 3,
+        "review": "The classes went fast so it was hard to follow at times. Depending on learning style it might be better to follow textbook and watch videos on YouTube that contain visuals and hands-on practices. Overall, professor is okay, will be willing to listen to you and isn't harsh.",
+        "source": "MATH 2090 Michael Tom"
+      },
+      {
+        "id": "id_4__rev_3",
+        "rating": 3,
+        "review": "Professor likes to go on tangents about things that are not related to the course but if you have some sort of music understanding, you should be fine. Exams are pretty straight forward and usually has a bonus task that has nothing to do with music that is worth a couple of points. I do not recommend taking this class who are taking this course for the 1st time.",
+        "source": "MATH 1550 Terrie White"
+      },
+      {
+        "id": "id_5__rev_3",
+        "rating": 3,
+        "review": "Chill person. Classes are kinda odd and disorganized. Tests are difficult but I think grades are curved a bit. Homework gets pushed back a lot and it's not too bad either. No quizzes. Attendance is mandatory and has in-class activities for class participation.",
+        "source": "ECON 2000 Timothy Rakitan"
+      },
+      {
+        "id": "id_6__rev_3",
+        "rating": 3,
+        "review": "Professor knows. Actually feels like learning from a professor. You'll struggle but professor has a certain teaching mechanism which is not hard to figure out. Professor might be little unclear when explaining. Can be funny sometimes.",
+        "source": "EE 3530 Xiangyu Meng"
+      }
+    ],
+    "4": [
+      {
+        "id": "id_1__rev_4",
+        "rating": 4,
+        "review": "Good professor but make sure you get to class and Friday TA sessions. Take advantage of the tutoring and you'll be fine. Brush up on your instrument skills if needed. You get used to Professor's teaching style after a couple of weeks as sometimes it's hard to understand. I have an A, thinking, I'll get B or A. Very good teacher in overall.",
+        "source": "MATH 1550 Ameziane Harhad"
+      },
+      {
+        "id": "id_2__rev_4",
+        "rating": 4,
+        "review": "Professor has been in the music industry and taught music for years, so is very knowledgeable. Can get a little off topic sometimes, but overall gives pretty good, honest advice/critiques. Super nice person, and you can tell how professor really cares about students. if you put in the effort, professor will always be happy to help you.",
+        "source": "ART 2564 Gerald Bower"
+      },
+      {
+        "id": "id_3__rev_4",
+        "rating": 4,
+        "review": "Professor is very kind! Very lenient when it comes to due dates and does not grade very hard. This course assignments revolve around the final, which makes it easier to learn in the long run. Does end up doing Zoom a lot though, which wasn't the best for me, but if that's something you like, this professor is the person to take.",
+        "source": "ENGL 2000 Lana Wiggins"
+      },
+      {
+        "id": "id_4__rev_4",
+        "rating": 4,
+        "review": "So in my opinion the class can be a pain to sit through sometimes. This course does have in-class assignments sometimes as well and I feel like grading is pretty hard but overall this professor is one of the most fair professors I ever met. Very understanding and is flexible with you.",
+        "source": "ENGL 1001 Derek Moseley"
+      },
+      {
+        "id": "id_5__rev_4",
+        "rating": 4,
+        "review": "Very entertaining and engaging. Professor rants about music and clearly loves the subject. However, there's a very little indication on what to note due to nonchalant style which comes back to hurt students for exams. I'd take other courses with this professor though, understanding the course structure",
+        "source": "MKT 3401"
+      },
+      {
+        "id": "id_6__rev_4",
+        "rating": 4,
+        "review": "Professor is very reachable. The class being an hour and a half long is tough but Professor keeps things interesting like bringing in guest musicians or playing videos related to topics. Very quick on assignments and reminds students about ways to pass exams.",
+        "source": "CM 2112 Ali Kazemian"
+      }
+    ],
+    "5": [
+      {
+        "id": "id_1__rev_5",
+        "rating": 5,
+        "review": "The perfect professor for music. Knows how to explain concepts to those with below average music ability and makes it very straightforward for everyone. Professor is kind and can be pretty funny. Highly recommend this class for anyone who wants to pursue music for passion and career.",
+        "source": "MATH 1550 Ameziane Harhad"
+      },
+      {
+        "id": "id_2__rev_5",
+        "rating": 5,
+        "review": "Professor is great at teaching!! Super knowledgeable and gives really great and honest feedback. Very engaging, always asking for your opinion. Also takes time to go over your work individually and helps through every step of the music process. Very understanding and truly cares about students.",
+        "source": "ART 2544 Andrew Shurtz"
+      },
+      {
+        "id": "id_3__rev_5",
+        "rating": 5,
+        "review": "I've taken almost every class Professor has offered in the last 3 years and is easily my favorite. The subject matter is actually interesting and really cool. Very helpful, if you need more time or have questions.",
+        "source": "ARTH 4420 William Ma"
+      },
+      {
+        "id": "id_4__rev_5",
+        "rating": 5,
+        "review": "Professor is passionate about teaching as is about music. Professor's critiques can be harsh at times, but if you put in the work, regardless of how 'bad' you think you did, professor will give you proper recognition for your hard work.",
+        "source": "ART 1011 Scott Andresen"
+      },
+      {
+        "id": "id_5__rev_5",
+        "rating": 5,
+        "review": "Great teacher! Very encouraging, will never tell you your work is 'bad' or 'wrong'. I already had some experience in music, so I found this professor really helpful, professor gives you tips on how to approach your craft in a way. If you are very new to music and its technical stuff, you may struggle a bit.",
+        "source": "ART 1849 Ed Smith"
+      },
+      {
+        "id": "id_6__rev_5",
+        "rating": 5,
+        "review": "Excellent teacher. Classes are incredibly difficult and you should definitely go through course materials before exams. Just a warning- this professor has high standards for students, so take this class if you are looking for an easy A. If you ever need help or are struggling in class, just go see professor in office hours. Really helpful professor.",
+        "source": "EE 3232 Theda Daniels-Race"
+      }
+    ]
+  }
+}
