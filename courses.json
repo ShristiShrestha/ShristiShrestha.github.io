@@ -82,52 +82,86 @@
   },
   "courses": {
     "C1": {
-      "anchor": "G1",
+      "id": "G1",
       "name": "Music Education",
       "prof": "",
-      "rating": 4.8
+      "rating": 4.8,
+      "reviewsIds": ["id_1__rev_1", "id_1__rev_4", "id_1__rev_5",
+        "id_2__rev_4", "id_3__rev_4", "id_4__rev_4",
+        "id_2__rev_5", "id_3__rev_5", "id_4__rev_5",
+        "id_6__rev_4", "id_6__rev_5"
+      ]
     },
     "C2": {
-      "anchor": "G2",
+      "id": "G2",
       "name": "Music Education",
       "prof": "",
-      "rating": 3.7
+      "rating": 3.7,
+      "reviewsIds": ["id_2__rev_1", "id_1__rev_3", "id_2__rev_3",
+        "id_5__rev_4", "id_5__rev_5",
+        "id_4__rev_3", "id_6__rev_3"
+      ]
     },
     "C3": {
       "id": "G3",
       "name": "Music Education",
       "prof": "",
-      "rating": 1.2
+      "rating": 1.2,
+      "reviewsIds": ["id_1__rev_5", "id_1__rev_1", "id_1__rev_2",
+        "id_2__rev_2", "id_3__rev_2",
+        "id_2__rev_1", "id_3__rev_1"
+      ]
     },
     "C4": {
       "id": "G4",
       "name": "Music Education",
       "prof": "",
-      "rating": 3.3
+      "rating": 3.3,
+      "reviewsIds": ["id_2__rev_5", "id_6__rev_1", "id_6__rev_2",
+        "id_1__rev_3", "id_2__rev_3", "id_3__rev_3",
+        "id_4__rev_2", "id_5__rev_2"
+      ]
     },
     "C5": {
       "id": "G5",
       "name": "Music Education",
       "prof": "",
-      "rating": 4.8
+      "rating": 4.8,
+      "reviewsIds": ["id_6__rev_5", "id_6__rev_4",
+        "id_1__rev_4", "id_2__rev_5",
+        "id_4__rev_4", "id_5__rev_5"
+      ]
     },
     "C6": {
       "id": "G6",
       "name": "Music Education",
       "prof": "",
-      "rating": 3.7
+      "rating": 3.7,
+      "reviewsIds": ["id_1__rev_3", "id_2__rev_3", "id_2__rev_4",
+        "id_3__rev_4", "id_3__rev_5",
+        "id_4__rev_3", "id_5__rev_3"
+      ]
     },
     "C7": {
       "id": "G7",
       "name": "Music Education",
       "prof": "",
-      "rating": 1.2
+      "rating": 1.2,
+      "reviewsIds": ["id_1__rev_1", "id_1__rev_2",
+        "id_5__rev_1", "id_6__rev_1",
+        "id_5__rev_2", "id_6__rev_2"
+      ]
     },
+
     "C8": {
       "id": "G8",
       "name": "Music Education",
       "prof": "",
-      "rating": 3.3
+      "rating": 3.3,
+      "reviewsIds": ["id_1__rev_3", "id_2__rev_4", "id_2__rev_3",
+        "id_3__rev_2", "id_3__rev_3",
+        "id_4__rev_2", "id_4__rev_3"
+      ]
     }
   },
   "reviews": {
