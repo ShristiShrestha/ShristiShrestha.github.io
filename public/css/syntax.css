@@ -67,13 +67,14 @@
 .svg-inline--fa-cover{
     border-radius: 50%;
     background: white;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    /* height: 35px; */
     display: flex;
     align-items: center;
     vertical-align: middle;
     flex-direction: column;
-    padding: 4px;
+    justify-content: end;
+    padding: 6px;
 }
 
 .svg-inline--fa-cover img{
@@ -86,7 +87,8 @@
 }
 
 .svg-inline--fa-cover:hover svg{
-    color: white;
+    color: #268bd2;
+    /* background: #268bd2; */
 }
 
 .svg-inline--fa{
