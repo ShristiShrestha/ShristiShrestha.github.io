@@ -1,11 +1,12 @@
 <div class="profile-section">
     <h2 style="margin:0;padding:0;margin-bottom:12px;">Publications</h2>
-    <ul class="no-style-ul overview-ul education-ul" style="margin-bottom: 8px;">
+    <ul class="no-style-ul overview-ul publications-ul" style="margin-bottom: 8px;">
         {% for item in site.data.publications %}
-            <li>
+            <li style="margin-bottom: 16px;">
                 <div class="h-justified-flex">
-                    <a class="h-start-flex paper-link" href="https://dl.acm.org/doi/10.1145/3647632.3647986" target="_blank">
-                        <p style="color: inherit; margin:0; padding: 0;">{{item.title}}
+                    <a class="h-start-flex paper-link" href="{{item.url}}" target="_blank">
+                        <p style="color: inherit; margin:0; padding: 0;">
+                            <b>{{item.title}}</b>
                         </p>
                     </a>
                 </div>

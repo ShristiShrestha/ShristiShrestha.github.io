@@ -1,14 +1,19 @@
 <div class="profile-section">
-    <h2 style="margin:0;padding:0;margin-bottom:12px;">Teaching</h2>
-    <ul class="no-style-ul overview-ul" style="margin-bottom: 8px;">
-        <li>
-            <div class="h-justified-flex">
-                <p style="margin:0; padding: 0;">Graduate Teaching Assistant, LSU</p>
-                <p>Fall 2023</p>
-            </div>
-            <div>
-                <p style="color: gray;">Introduction to Java</p>
-            </div>
-        </li>
+    <h2 style="margin:0;padding:0;">Teaching</h2>
+    <div class="h-justified-flex" style="margin: 8px 0;">
+            <h4 style="margin:0;padding: 0;">Louisiana State University</h4>
+            <i>Since 2022</i>
+    </div>
+    <ul class="no-style-ul overview-ul">
+        {% for item in site.data.teaching %}
+            <li style="margin-bottom:16px;">
+                    <div class="h-justified-flex">
+                        <p style="margin:0; padding: 0;">{{item.position}} <i>{{item.impact}}</i></p>
+                    </div>
+                    <div>
+                        <i>{{item.description}}</i>
+                    </div>
+            </li>
+        {% endfor %}
     </ul>
 </div>

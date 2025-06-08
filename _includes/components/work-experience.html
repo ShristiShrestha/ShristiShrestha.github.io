@@ -1,0 +1,19 @@
+<div class="profile-section">
+    <h2 style="margin:0;padding:0;margin-bottom:12px;">Work Experience</h2>
+    <div class="h-justified-flex" style="margin: 8px 0;">
+            <h4 style="margin:0;padding: 0;">Sireto Technology</h4>
+            <i>2019 - 2022</i>
+    </div>
+    <ul class="no-style-ul overview-ul" style="margin-bottom: 8px;">
+        {% for item in site.data.work %}
+            <li style="margin-bottom:12px;">
+                    <div class="h-justified-flex">
+                        <p style="margin:0; padding: 0;">{{item.position}} <i>{{item.impact}}</i></p>
+                    </div>
+                    <div>
+                        <i>{{item.description}}</i>
+                    </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -45,19 +45,15 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow:hidden;
 }
 
 html {
-  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.85rem;
-  line-height: 1.4;
+  font-family: "Lato", sans-serif, "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-  html {
-    font-size: 0.95rem;
-  }
-}
 
 body {
   color: #515151;
@@ -92,16 +88,21 @@ h1 {
   font-size: 2rem;
 }
 h2 {
-  margin-top: 1rem;
   font-size: 1.5rem;
 }
 h3 {
-  margin-top: 1.5rem;
   font-size: 1.25rem;
 }
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+h4 {
+  font-size: 1.15rem;
+}
+
+h5{
+  font-size: 1.1rem;
+}
+
+h6{
+  font-size: 1.05rem;
 }
 
 /* Body text */
@@ -140,11 +141,11 @@ hr {
 }
 
 abbr {
-  font-size: 85%;
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
 }
+
 abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
@@ -157,7 +158,6 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
@@ -167,7 +167,6 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
@@ -177,7 +176,6 @@ pre {
 }
 pre code {
   padding: 0;
-  font-size: 100%;
   color: inherit;
   background-color: transparent;
 }
@@ -262,7 +260,6 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -380,7 +377,6 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 .related-posts li small {
-  font-size: 75%;
   color: #999;
 }
 .related-posts li a:hover {

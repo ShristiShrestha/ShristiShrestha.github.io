@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Programming Languages",
+        "values": "Python, Java, Kotlin, JavaScript (JS), SQL, C/C++, Dart"
+    },
+     {
+        "title": "Frameworks & Tools",
+        "values": "SpringBoot, Next.js, React (library), Flutter (SDK), Figma, NLTK, Git"
+    },
+     {
+        "title": "Cloud Technologies",
+        "values": "Firebase (Auth, Functions, FireStore, NextJS integration), AWS"
+    },
+     {
+        "title": "Database",
+        "values": " PostgreSQL, MongoDB, Elasticsearch, HBase"
+    }
+]

@@ -1,28 +1,23 @@
 <div class="profile-section">
-    <h2 style="margin:0;padding:0;margin-bottom:12px;">Education</h2>
-    <ul class="no-style-ul overview-ul education-ul" 
-    style="margin-bottom: 8px; border-left: 1px solid black;">
-    <li style="padding: 12px;">
-        <div class="h-justified-flex">
-            <b style="color: black;margin:0; padding: 0;">Ph.D. in Computer Science</b>
-             <p>2022-present</p>
-        </div>
-        <div>
-            <p><i>Dissertation title: "Leveraging Large Language Models to Enhance the Utility of Mobile App Store Rating Systems"</i> </p>
-        </div>
-        <div>
-            <p style="color: gray;">Louisiana State University, Baton Rouge, LA</p>
-        </div>
-    </li>
-    <div style="width: 96%; height: 0.5px; border-bottom: 0.5px solid #efefef; margin: auto;"></div>
-    <li style="padding: 12px;">
-        <div class="h-justified-flex">
-            <b style="color: black;margin:0; padding: 0;">Bachelor in Computer Engineering</b>
-             <p>2015-2019</p>
-        </div>
-        <div>
-            <p style="color: gray;">Tribhuwan University, Nepal</p>
-        </div>
-    </li>
-</ul>
+    <h2 style="margin:0;padding:0;margin-bottom:16px;">Education</h2>
+    <ul class="no-style-ul overview-ul" >
+        {% for item in site.data.education %}
+            <li style="margin-bottom: 16px;">
+                <div class="h-justified-flex">
+                    <h4 style="color: black;margin:0; padding: 0;">{{item.university}}</h4>
+                    <i>{{item.duration}}</i>
+                </div>
+                <div>
+                    <p>
+                        <i>{{item.position}}</i>;
+                        <i>GPA: {{item.gpa}}</i>
+                    </p>
+                    <p><i>{{item.more}}</i></p>
+                </div>
+                <div>
+                    <p style="color: gray;">{{item.location}}</p>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
 </div>

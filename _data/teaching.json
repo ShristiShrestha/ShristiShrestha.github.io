@@ -1,8 +1,12 @@
 [
     {
+        "position": "Programming Lab Assistant",
+        "impact": "(3 hr, 30 students)",
+        "description": "Supervised first-year undergraduate computer students in their lab assignments for the “Introduction to the Java programming language” course."
+    },
+    {
         "position": "Graduate Teaching Assistant",
-        "university": "LSU",
-        "duration": "Fall 2023",
-        "course": "CSC 1350 - Introduction to Java"
+        "impact": "(3 hr, 100+ students)",
+        "description": "Offer assistance in grading midterm and final exams for two courses: “Software Systems Design” and “Programming Language.”"
     }
 ]

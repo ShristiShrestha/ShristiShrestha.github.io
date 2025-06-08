@@ -1,3 +1,11 @@
-<div>
-    
+<div class="profile-section">
+    <h2 style="margin:0;padding:0;margin-bottom:12px;">Technical Skills</h2>
+    <ul class="no-style-ul overview-ul" style="margin-bottom: 8px;">
+        {% for item in site.data.technical_skills %}
+            <li class="h-start-flex" style="margin-bottom:12px; column-gap: 8px; color:black;">
+                    <p style="color:gray;">{{item.title}}: </p>
+                    <p>{{item.values}}</p>
+            </li>
+        {% endfor %}
+    </ul>
 </div>

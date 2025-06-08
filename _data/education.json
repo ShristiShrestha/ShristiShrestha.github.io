@@ -1,16 +1,18 @@
 [
     {
-        "position": "PhD",
-        "course": "Computer Science",
+        "position": "Ph.D. Candidate in Computer Science",
         "university": "Louisiana State University",
-        "country": "USA",
-        "duration": "2022-present"
+        "gpa": "3.91",
+        "more": "Dissertation title: “Leveraging Large Language Models to Enhance the Utility of Mobile App Store Rating Systems”",
+        "duration": "2022 - present",
+        "location": "Baton Rouge, LA, USA"
     },
     {
-        "position": "Bachelor",
-        "course": "Computer Engineering",
-        "university": "Pulchowk Campus, Tribhuwan University",
+        "position": "Bachelor in Computer Engineering",
+        "university": "Tribhuwan University, Pulchowk Campus",
+        "gpa": " 3.75",
         "country": "Nepal",
-        "duration": "2015-2019"
+        "duration": "2015 - 2019",
+        "location": "Lalitpur, Nepal"
     }
 ]
