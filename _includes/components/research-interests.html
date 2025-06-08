@@ -1,3 +1,8 @@
-<div>
-Software Engineering | Requirement Engineering | Natural Language Processing | App Store Requirement Analysis | User Interface Design Analysis | Human Computer Interactions | Qualitative Analysis
+<div class="profile-section">
+    <h2 style="margin:0;padding:0;margin-bottom:12px;">Research Interests</h2>
+    <p>
+        {% for item in site.data.interests.research %}
+            {{item}} {% unless forloop.last %} | {% endunless %}
+        {% endfor %}
+    </p>
 </div>

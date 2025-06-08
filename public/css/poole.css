@@ -290,8 +290,8 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  margin: 32px auto;
-  width: 768px;
+  margin: 16px auto;
+  width: calc(100vw - 120px);
   /* max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
@@ -302,7 +302,7 @@ tbody tr:nth-child(odd) th {
 @media(max-width:768px){
   .container{
     width: 100%;
-    padding: 0 32px;
+    padding: 0 24px;
   }
   
 }

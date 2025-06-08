@@ -1,16 +1,26 @@
 [
     {
+        "title": "Automatic Summarization of Mobile Application Reviews using Chain of Density Prompting",
+        "url": "https://scholar.google.com/citations?user=NHIjzpEAAAAJ",
+        "authors": ["S. Shrestha", " and A. Mahmoud, "],
+        "venue": "Automated Software Engineering Journal",
+        "venue_bold": "(ASEJ)",
+        "year": "2025"
+    },
+    {
         "title": "No Country for Indie Developers: A Study of Google Play’s Closed Testing Requirements for New Personal Developer Accounts",
-        "description": "",
-        "authors": "G. Shrestha, S. Shrestha, and A. Mahmoud",
-        "venue": "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3736578",
+        "authors": ["G. Shrestha, ", "S. Shrestha,", " and A. Mahmoud, "],
+        "venue": "Transactions on Software Engineering and Methodology",
+        "venue_bold": "(ACM TOSEM)",
         "year": "2025"
     },
     {
         "title": "Generating Rate Features for Mobile Applications",
-        "description": "",
-        "authors": "S. Shrestha and A. Mahmoud",
-        "venue": "International Conference on Mobile Software Engineering and Systems (MobileSoft)",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3647632.3647986",
+        "authors": ["S. Shrestha", " and A. Mahmoud, "],
+        "venue": "International Conference on Mobile Software Engineering and Systems",
+        "venue_bold": "(ICSE MobileSoft)",
         "year": "2024"
     }
 ]

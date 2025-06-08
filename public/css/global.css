@@ -63,3 +63,34 @@
     padding: 0 2px;
     background-color: yellow;
 }
+
+/*  profile CSS  */
+.profile-page{
+    column-gap: 24px;
+    row-gap: 24px;
+    align-items: start;
+    width: 100%;
+    justify-content: center;
+}
+
+.profile-info-section{
+    
+}
+
+.profile-all-section{
+    width: 650px;
+    row-gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:650px) {
+    .profile-all-section{
+       width: 90%;
+    }
+}
+
+.profile-section{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 16px 0;
+}

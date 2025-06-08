@@ -1,29 +1,28 @@
-<ul class="no-style-ul overview-ul education-ul" style="margin-bottom: 8px;">
-      <li>
-        <div class="h-justified-flex">
-            <a class="h-start-flex paper-link" href="https://dl.acm.org/doi/10.1145/3647632.3647986" target="_blank">
-                <p style="color: inherit; margin:0; padding: 0; text-align: left;">No Country for Indie Developers: A Study of Google Play’s Closed Testing Requirements for New Personal Developer Accounts
-                </p>
-               
-             </a>
-        </div>
-        <div>
-            <p>
-            G. Shrestha, <b>S. Shrestha</b>, and A. Mahmoud, <i>ACM Transactions on Software Engineering and Methodology (TOSEM)</i>, 2025.</p>
-        </div>
-    </li>
-    <li>
-        <div class="h-justified-flex">
-            <a class="h-start-flex paper-link" href="https://dl.acm.org/doi/10.1145/3647632.3647986" target="_blank">
-                <p style="color: inherit; margin:0; padding: 0;">Generating Rate Features for Mobile Applications
-                </p>
-                
-             </a>
-        </div>
-        <div>
-            <p>
-            <b>S. Shrestha</b> and A. Mahmoud, <i>International Conference on Mobile Software Engineering and Systems (MobileSoft)</i>, 2024.</p>
-        </div>
-    </li>
-  
-</ul>
+<div class="profile-section">
+    <h2 style="margin:0;padding:0;margin-bottom:12px;">Publications</h2>
+    <ul class="no-style-ul overview-ul education-ul" style="margin-bottom: 8px;">
+        {% for item in site.data.publications %}
+            <li>
+                <div class="h-justified-flex">
+                    <a class="h-start-flex paper-link" href="https://dl.acm.org/doi/10.1145/3647632.3647986" target="_blank">
+                        <p style="color: inherit; margin:0; padding: 0;">{{item.title}}
+                        </p>
+                    </a>
+                </div>
+                <div>
+                    <p>
+                        {% assign myname = "S. Shrestha" %}
+                        {% for author in item.authors %}
+                            {% if author contains myname %}
+                                <b>{{ author }}</b>{% unless forloop.last %} {% endunless %}
+                            {% else %}
+                                {{ author }}{% unless forloop.last %} {% endunless %}
+                            {% endif %}
+                        {% endfor %}
+                        <i>{{item.venue}} <b>{{item.venue_bold}}</b></i>, {{item.year}} 
+                    </p>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
