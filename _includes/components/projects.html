@@ -1,0 +1,23 @@
+<div class="profile-section">
+    <h2 style="margin:0;padding:0;margin-bottom:12px;">Projects</h2>
+    <ul class="no-style-ul overview-ul projects-ul h-start-flex" style="column-gap: 8px; row-gap: 8px; align-items: start;">
+        {% for item in site.data.projects %}
+            <li>
+                <div class="project-card h-start-flex">
+                    <b class="text-black">{{ item.title }}</b>
+                    <p style="color: #303030;">{{ item.description }} </p>
+                    <div class="h-start-flex" style="column-gap: 4px;"> 
+                        {% for linkItem in item.links %}
+                            <a href="{{ linkItem.url }}" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <p class="project-link-label">{{ linkItem.label }}</p>
+                            </a>{% unless forloop.last %} <p class="text-gray">|</p> {% endunless %}
+                        {% endfor %}
+                    </div>
+                    <div class="project-footer">
+                        <p class="text-white" style="text-align: left;">{{ item.footerText }}</p>
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
