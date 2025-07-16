@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Verbo: Realize Your Goals",
+        "description": "Verbo is a mobile app that helps you commit to your goals by enabling you to state your goals out loud and reflect back on your hard work every week.",
+        "footerText": "Try Verbo for 21 days and experience the power of verbal commitments.",
+        "image": "/profile_2.png",
+        "video": "/profile_2.png",
+        "links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/ShristiShrestha/project-ideas/tree/verbo-flutter-app"
+            },
+            {
+                "label": "YouTube",
+                "url": "https://youtube.com"
+            }
+        ]
+    },
+    {
+        "title": "FUEL",
+        "description": "A web prototype that allows you to find UI-related bugs in your Flutter apps and check if the app adheres to the design guidelines enforced by major app stores.",
+        "footerText": "Simply paste your code and improve the user experience of your apps.",
+        "image": "/profile_2.png",
+        "video": "/profile_2.png",
+        "links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/ShristiShrestha/project-ideas/tree/verbo-flutter-app"
+            },
+            {
+                "label": "YouTube",
+                "url": "https://youtube.com"
+            }
+        ]
+    },
+     {
+        "title": "Amazing Package Analzyer",
+        "description": "A web prototype that allows you to find bugs in your package integration implementation in Flutter apps.",
+        "footerText": "Let's be more confident when using third-party packages in our apps.",
+        "image": "/profile_2.png",
+        "video": "/profile_2.png",
+        "links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/ShristiShrestha/project-ideas/tree/verbo-flutter-app"
+            },
+            {
+                "label": "YouTube",
+                "url": "https://youtube.com"
+            }
+        ]
+    },
+    {
+        "title": "Rate Features",
+        "description": "A chrome extension that summarizes app reviews into abstract, domain-specific rate features.",
+        "footerText": "Let's find you an app that matches your goals.",
+        "image": "/profile_2.png",
+        "video": "/profile_2.png",
+        "links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/ShristiShrestha/project-ideas/tree/verbo-flutter-app"
+            },
+            {
+                "label": "YouTube",
+                "url": "https://youtube.com"
+            }
+        ]
+    }
+]

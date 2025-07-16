@@ -93,3 +93,64 @@
     border-bottom: 1px solid #e2e2e2;
     padding: 16px 0;
 }
+
+/* project card */
+
+.project-card{
+    /* width: 48%; */
+    align-content: start;
+    /* min-height: 360px; */
+    padding: 12px;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    /* background-color: #fcfcfc; */
+    row-gap: 12px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* transition: box-shadow 0.3s ease; */
+}
+
+.project-link{
+    padding: 0 8px;
+    /* border-right: 1px solid rgb(174, 173, 173); */
+}
+
+.project-link-label{
+    color: #268bd2;
+    text-decoration: none;
+}
+
+.project-link-label:hover{
+    text-decoration: underline;
+}
+
+.project-footer{
+    padding: 12px 16px;
+    color: white;
+    border-radius: 8px;
+    background-color: #268bd2;
+    cursor: pointer;
+}
+
+.projects-ul li{
+    width: 49%;
+}
+
+@media(max-width:650px) {
+   .projects-ul li{
+       width: 100%;
+    }
+}
+
+/* text styles */
+
+.text-white{
+    color: white;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.text-black{
+    color: black;
+}
