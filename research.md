@@ -7,5 +7,6 @@ title: Research
 
 *Working on it...*
 
-<!-- todo: add research items -->
+[//]: # (just a comment)
+
 Have questions or suggestions? Feel free to [ask me on Twitter](https://twitter.com/Shrististha7).
