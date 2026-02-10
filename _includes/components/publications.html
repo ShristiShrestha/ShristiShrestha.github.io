@@ -1,8 +1,8 @@
 <div class="profile-section">
     <h2 style="margin:0;padding:0;margin-bottom:12px;">Publications</h2>
-    <ul class="no-style-ul overview-ul publications-ul" style="margin-bottom: 8px;">
+    <ul class="no-style-ul overview-ul publications-ul">
         {% for item in site.data.publications %}
-            <li style="margin-bottom: 16px;">
+            <li style="margin-bottom: 24px;">
                 <div class="h-justified-flex">
                     <a class="h-start-flex paper-link" href="{{item.url}}" target="_blank">
                         <p style="color: inherit; margin:0; padding: 0;">
@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div>
-                    <p>
+                    <p style="margin: 4px 0;">
                         {% assign myname = "S. Shrestha" %}
                         {% for author in item.authors %}
                             {% if author contains myname %}
@@ -23,6 +23,49 @@
                         <i>{{item.venue}} <b>{{item.venue_bold}}</b></i>, {{item.year}} 
                     </p>
                 </div>
+                <div style="margin: 6px 0;">
+                    {% for skill in item.learnt %}
+                        {% if skill != "" %}
+                            <span style="display: inline-block; background: #f0f0f0; border-radius: 4px; padding: 2px 8px; margin-right: 6px; margin-bottom: 6px; border: 1px solid #ddd;">
+                                {{ skill }}
+                            </span>
+                        {% endif %}
+                    {% endfor %}
+                    <div class="paper-icons" style="display: inline-flex; align-items: center; column-gap: 8px; row-gap: 8px;">
+                    {% if item.github != "" %}
+                        <a class="paper-show-tell-ref" href="{{item.github}}" target="_blank" title="GitHub Repository" style="width: 28px; color: #607d8b;">
+                            {% include svgs/github.html %}
+                        </a>
+                    {% endif %}
+                    {% if item.figma != "" %}
+                        <a class="paper-show-tell-ref" href="{{item.figma}}" target="_blank" title="Figma Design" style="width: 22px;">
+                            {% include svgs/figma.html %}
+                        </a>
+                    {% endif %}
+                    {% if item.prototype != "" %}
+                        <a class="paper-show-tell-ref" href="{{item.prototype}}" target="_blank" title="Live Prototype" style="width: 28px; color: #607d8b;"> 
+                            {% include svgs/web.html %}
+                        </a>
+                    {% endif %}
+                </div>
+                </div>
+                
+                
+                {% if item.problem != "" or item.solution != "" %}
+                <details style="cursor: pointer;">
+                    <summary style="list-style: none; font-size: 1em;">
+                        <i>>>> Read summary</i>
+                    </summary>
+                    <div style="margin-top: 6px; padding-left: 12px; border-left: 2px solid #007bff; color: #555;">
+                        {% if item.problem != "" %}
+                            <p><strong>Problem:</strong> {{ item.problem }}</p>
+                        {% endif %}
+                        {% if item.solution != "" %}
+                            <p style="padding-top: 6px;"><strong>Solution:</strong> {{ item.solution }}</p>
+                        {% endif %}
+                    </div>
+                </details>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>

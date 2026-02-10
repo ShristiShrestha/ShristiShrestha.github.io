@@ -5,7 +5,13 @@
         "authors": ["S. Shrestha", " and A. Mahmoud, "],
         "venue": "Automated Software Engineering Journal",
         "venue_bold": "(ASEJ)",
-        "year": "2025"
+        "year": "2025",
+        "problem": "",
+        "solution": "",
+        "learnt": [],
+        "github": "",
+        "prototype": "",
+        "figma": ""
     },
     {
         "title": "No Country for Indie Developers: A Study of Google Play’s Closed Testing Requirements for New Personal Developer Accounts",
@@ -13,7 +19,16 @@
         "authors": ["G. Shrestha, ", "S. Shrestha,", " and A. Mahmoud, "],
         "venue": "ACM Transactions on Software Engineering and Methodology",
         "venue_bold": "(ACM TOSEM)",
-        "year": "2025"
+        "year": "2025",
+        
+         "problem": "Finding an app that meets specific user criteria is difficult because the current `one-size-fits-all` 5-star rating system in app stores fails to capture domain-specific needs. This forces users to spend significant mental effort scrolling through thousands of unstructured reviews to locate relevant information.",
+        "solution": "We developed an automated, unsupervised pipeline that uses large language models (LLMs) to generate `Rate Features` from long, unstructured app reviews. Rate features are neutral, domain-specific, concise summaries  (2-3 words) of the reviews.",
+        "data": "",
+        "results": "",
+        "learnt": ["Prompt engineering and analysis", "Zero-shot prompting", "NLTK", "Gensim", "GloVe embeddings", "Qualitative thematic analysis", "Recall analysis", "Pandas", "Scikit-learn"],
+        "github": "https://github.com/ShristiShrestha/Generate-App-Rate-Features",
+        "prototype": "https://github.com/ShristiShrestha/Generate-App-Rate-Features",
+        "figma": "https://github.com/ShristiShrestha/Generate-App-Rate-Features"
     },
     {
         "title": "Generating Rate Features for Mobile Applications",
@@ -21,6 +36,12 @@
         "authors": ["S. Shrestha", " and A. Mahmoud, "],
         "venue": "Proceedings of the IEEE/ACM International Conference on Mobile Software Engineering and Systems",
         "venue_bold": "(ICSE MobileSoft)",
-        "year": "2024"
+        "year": "2024",
+        "problem": "",
+        "solution": "",
+        "learnt": [],
+        "github": "",
+        "prototype": "",
+        "figma": ""
     }
 ]

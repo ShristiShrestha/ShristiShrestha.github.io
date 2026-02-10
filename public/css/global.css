@@ -198,3 +198,16 @@
         height: 120px;
     }
 }
+
+.paper-show-tell-ref{
+    cursor: pointer;
+    /* padding: 6px; */
+    /* background-color: #e2e2e2; */
+    border: 2px solid #fff; 
+    border-radius: 50%;
+}
+
+.paper-show-tell-ref:hover{
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+}
