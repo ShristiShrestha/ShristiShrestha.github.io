@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div>
-                    <p style="margin: 4px 0;">
+                    <p style="margin: 6px 0;">
                         {% assign myname = "S. Shrestha" %}
                         {% for author in item.authors %}
                             {% if author contains myname %}
@@ -26,30 +26,29 @@
                 <div style="margin: 6px 0;">
                     {% for skill in item.learnt %}
                         {% if skill != "" %}
-                            <span style="display: inline-block; background: #f0f0f0; border-radius: 4px; padding: 2px 8px; margin-right: 6px; margin-bottom: 6px; border: 1px solid #ddd;">
+                            <span style="display: inline-block; background: #f0f0f0; border-radius: 4px; padding: 0 6px; margin-right: 4px; margin-bottom: 2px; border: 1px solid #ddd; font-size: 0.8em; border-radius: 4px;">
                                 {{ skill }}
                             </span>
                         {% endif %}
                     {% endfor %}
                     <div class="paper-icons" style="display: inline-flex; align-items: center; column-gap: 8px; row-gap: 8px;">
-                    {% if item.github != "" %}
-                        <a class="paper-show-tell-ref" href="{{item.github}}" target="_blank" title="GitHub Repository" style="width: 28px; color: #607d8b;">
-                            {% include svgs/github.html %}
-                        </a>
-                    {% endif %}
-                    {% if item.figma != "" %}
-                        <a class="paper-show-tell-ref" href="{{item.figma}}" target="_blank" title="Figma Design" style="width: 22px;">
-                            {% include svgs/figma.html %}
-                        </a>
-                    {% endif %}
-                    {% if item.prototype != "" %}
-                        <a class="paper-show-tell-ref" href="{{item.prototype}}" target="_blank" title="Live Prototype" style="width: 28px; color: #607d8b;"> 
-                            {% include svgs/web.html %}
-                        </a>
-                    {% endif %}
+                        {% if item.github != "" %}
+                            <a class="paper-show-tell-ref" href="{{item.github}}" target="_blank" title="GitHub Repository" style="width: 28px; color: #607d8b;">
+                                {% include svgs/github.html %}
+                            </a>
+                        {% endif %}
+                        {% if item.figma != "" %}
+                            <a class="paper-show-tell-ref" href="{{item.figma}}" target="_blank" title="Figma Design" style="width: 22px;">
+                                {% include svgs/figma.html %}
+                            </a>
+                        {% endif %}
+                        {% if item.prototype != "" %}
+                            <a class="paper-show-tell-ref" href="{{item.prototype}}" target="_blank" title="Live Prototype" style="width: 28px; color: #607d8b;"> 
+                                {% include svgs/web.html %}
+                            </a>
+                        {% endif %}
+                    </div>
                 </div>
-                </div>
-                
                 
                 {% if item.problem != "" or item.solution != "" %}
                 <details style="cursor: pointer;">
@@ -58,10 +57,16 @@
                     </summary>
                     <div style="margin-top: 6px; padding-left: 12px; border-left: 2px solid #007bff; color: #555;">
                         {% if item.problem != "" %}
-                            <p><strong>Problem:</strong> {{ item.problem }}</p>
+                            <p><strong style="color: darkred; background-color: rgb(255, 190, 190);">Problem <br/></strong> {{ item.problem }}</p>
                         {% endif %}
                         {% if item.solution != "" %}
-                            <p style="padding-top: 6px;"><strong>Solution:</strong> {{ item.solution }}</p>
+                            <p style="padding-top: 6px;"><strong style="color: darkgreen; background-color: rgb(195, 255, 204);">Solution <br/></strong> {{ item.solution }}</p>
+                        {% endif %}
+                        {% if item.data != "" %}
+                            <p style="padding-top: 6px; "><strong style="color: blue; background-color: rgb(209, 209, 250);">Data <br/></strong> {{ item.data }}</p>
+                        {% endif %}
+                         {% if item.results != "" %}
+                            <p style="padding-top: 6px; "><strong style="color: purple; background-color: rgb(246, 176, 246);">Results <br/></strong> {{ item.results }}</p>
                         {% endif %}
                     </div>
                 </details>
