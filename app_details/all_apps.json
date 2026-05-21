@@ -163,15 +163,15 @@
             "trackCensoredName": "BusyCal: Calendar & Reminders",
             "trackViewUrl": "https://apps.apple.com/us/app/busycal-calendar-reminders/id1173663647?mt=12&uo=4",
             "contentAdvisoryRating": "4+",
-            "averageUserRating": 0,
+            "averageUserRating": 4.5,
             "isVppDeviceBasedLicensingEnabled": true,
-            "userRatingCount": 0,
+            "userRatingCount": 3500,
             "ratings": {
-                "1": 0,
-                "2": 0,
-                "3": 0,
-                "4": 0,
-                "5": 0
+                "1": 650,
+                "2": 50,
+                "3": 200,
+                "4": 500,
+                "5": 2100
             }
         },
         {
