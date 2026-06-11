@@ -1,0 +1,530 @@
+[
+    {
+        "prompt_input": {
+            "word": "cold",
+            "ex_limit_str": "1-5",
+            "context": "Are you willing to sacrifice your relationship\u2014or worse, your sanity\u2014to see that person for more than forty hours a week and three-hundred-some days a year?\nRuth reached out to me cold over e-mail.\nI get thousands of messages every day from entrepreneurs all over the world on LinkedIn, Facebook, and Instagram."
+        },
+        "prompt_output": {
+            "meaning": "having a low temperature; not feeling warm",
+            "synonyms": [
+                "cool",
+                "chilly",
+                "frigid",
+                "icy"
+            ],
+            "antonyms": [
+                "hot",
+                "warm",
+                "heated",
+                "tropical"
+            ],
+            "usage_examples": [
+                "It is cold outside, wear a jacket.",
+                "I like to drink cold water.",
+                "The ice cream is very cold.",
+                "Don't touch the stove, it's still cold.",
+                "The weather is cold today."
+            ],
+            "word_in_context_meaning": "without any prior contact or introduction",
+            "word_in_context_synonyms": [
+                "unannounced",
+                "unexpectedly",
+                "out of the blue"
+            ],
+            "word_in_context_antonyms": [
+                "warmly",
+                "personally",
+                "with introduction"
+            ],
+            "word_in_context_usage_examples": [
+                "She contacted me cold about a job opportunity.",
+                "He sent a cold email asking for a donation.",
+                "The sales team made cold calls to potential clients.",
+                "I received a cold message from a stranger online."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "smidge",
+            "ex_limit_str": "1-5",
+            "context": "#supermom).\nI agreed to chat with Ruth on the phone to do a smidge of mentoring.\nWithin hours of our phone call, she had made a donation to Girls Who Code (Reshma's organization from the Work section) in my name as a thank-you for giving my time to someone who sent a cold e-mail."
+        },
+        "prompt_output": {
+            "meaning": "a very small amount of something",
+            "synonyms": [
+                "bit",
+                "dash",
+                "pinch",
+                "speck",
+                "trace"
+            ],
+            "antonyms": [
+                "lot",
+                "heap",
+                "mountain",
+                "ton",
+                "abundance"
+            ],
+            "usage_examples": [
+                "Just add a smidge of salt.",
+                "He needs a smidge more practice.",
+                "She has a smidge of doubt.",
+                "Can I have a smidge of your cake?",
+                "It requires a smidge of effort."
+            ],
+            "word_in_context_meaning": "a small amount of time or effort",
+            "word_in_context_synonyms": [
+                "little bit",
+                "small amount",
+                "short time",
+                "little effort"
+            ],
+            "word_in_context_antonyms": [
+                "long time",
+                "large amount",
+                "significant effort",
+                "a lot of time"
+            ],
+            "word_in_context_usage_examples": [
+                "I can offer a smidge of mentoring.",
+                "She asked for a smidge of help.",
+                "He gave a smidge of his attention.",
+                "It took a smidge of time to explain.",
+                "We need a smidge of guidance."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "ebbs",
+            "ex_limit_str": "1-5",
+            "context": "You need to see the forest through the trees, and the only way you can do that is taking tiny microsteps forward\u2014and probably a million steps back.\nAnd yet, when it ebbs and flows along with that tide, a lot of good stuff gets washed onto the shore.\nFor me that was a partner in the Web site and my husband."
+        },
+        "prompt_output": {
+            "meaning": "To decrease or become less, like the tide going out.",
+            "synonyms": [
+                "recedes",
+                "subsides",
+                "diminishes",
+                "lessens"
+            ],
+            "antonyms": [
+                "grows",
+                "increases",
+                "rises",
+                "swells"
+            ],
+            "usage_examples": [
+                "The floodwaters began to ebb.",
+                "His enthusiasm ebbed away.",
+                "The tide ebbs in the morning.",
+                "Her strength ebbed after the long illness."
+            ],
+            "word_in_context_meaning": "To decrease and then increase, like the ocean tide moving in and out.",
+            "word_in_context_synonyms": [
+                "fluctuates",
+                "changes",
+                "varies"
+            ],
+            "word_in_context_antonyms": [
+                "stays the same",
+                "remains constant"
+            ],
+            "word_in_context_usage_examples": [
+                "Life ebbs and flows.",
+                "The economy ebbs and flows.",
+                "Her mood ebbs and flows."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "and",
+            "ex_limit_str": "1-5",
+            "context": "There are plenty of worse things.\nI'm being overly dramatic, but if you have ever stepped off a red-eye flight and had to go straight into a situation where you had to function fully as a human being, then you know what I'm talking about.\nI've had way too many instances in my own career of coming straight off a flight and trying hard to look focused and alert, plying myself with way too much coffee, zoning out in meetings, and asking myself if it was really worth it."
+        },
+        "prompt_output": {
+            "meaning": "Used to connect words, phrases, or clauses that are to be taken jointly.",
+            "synonyms": [
+                "also",
+                "plus",
+                "with",
+                "together with",
+                "as well as"
+            ],
+            "antonyms": [
+                "but",
+                "or",
+                "however",
+                "although",
+                "whereas"
+            ],
+            "usage_examples": [
+                "I like apples and bananas.",
+                "He ran and jumped.",
+                "She is smart and kind.",
+                "We can go now and then come back later.",
+                "The sun and the moon are in the sky."
+            ],
+            "word_in_context_meaning": "Used to connect two ideas or actions that happen together or one after another.",
+            "word_in_context_synonyms": [
+                "then",
+                "so",
+                "and then",
+                "also"
+            ],
+            "word_in_context_antonyms": [
+                "but",
+                "however",
+                "although"
+            ],
+            "word_in_context_usage_examples": [
+                "I stepped off the flight and had to function.",
+                "I tried hard to look focused and alert.",
+                "I was zoning out in meetings and asking myself if it was worth it."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "leeway",
+            "ex_limit_str": "1-5",
+            "context": "She agreed with my theory of being well lopsided and not trying to have it all, at least not at the same time.\n\"Allow yourself leeway when your focus needs to be on work, and when it needs to be on other aspects of your life.\"\nIn fact, she told me I was nowhere near alone in my career-oriented tendencies."
+        },
+        "prompt_output": {
+            "meaning": "freedom to act or move in a certain way",
+            "synonyms": [
+                "freedom",
+                "scope",
+                "room",
+                "latitude",
+                "elbow room"
+            ],
+            "antonyms": [
+                "restriction",
+                "limitation",
+                "constraint",
+                "straightjacket"
+            ],
+            "usage_examples": [
+                "The teacher gave us some leeway on the homework assignment.",
+                "There is not much leeway in the budget.",
+                "You have a lot of leeway in choosing your project topic.",
+                "The company allows its employees some leeway in their work hours.",
+                "The judge gave the defendant some leeway in his sentencing."
+            ],
+            "word_in_context_meaning": "freedom to choose what to do or how much to do, especially when balancing different parts of your life",
+            "word_in_context_synonyms": [
+                "flexibility",
+                "freedom",
+                "room to maneuver",
+                "discretion"
+            ],
+            "word_in_context_antonyms": [
+                "rigidity",
+                "inflexibility",
+                "strictness",
+                "no choice"
+            ],
+            "word_in_context_usage_examples": [
+                "Give yourself leeway to relax when you're not working.",
+                "The plan allows for some leeway in case of unexpected problems.",
+                "She has the leeway to decide when to take her vacation.",
+                "It's important to have leeway to adjust your priorities.",
+                "Don't be too hard on yourself; allow yourself some leeway."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "helm",
+            "ex_limit_str": "1-5",
+            "context": "So, if you're a Family Monetizer in any way, just make sure you're getting the healthy separation you need.\nWith leaders like Halle at the helm, I couldn't be more thrilled with the future of children's entertainment.\n## SEEKING FAMILY THROUGH COMMUNITY\n\nFamily is not just designated to those who share your DNA."
+        },
+        "prompt_output": {
+            "meaning": "the wheel or handle used to steer a boat or ship",
+            "synonyms": [
+                "rudder",
+                "tiller",
+                "wheel",
+                "ship's wheel"
+            ],
+            "antonyms": [
+                "none"
+            ],
+            "usage_examples": [
+                "The captain stood at the helm, guiding the ship through the storm.",
+                "He took the helm and steered the boat towards the shore.",
+                "With the new manager at the helm, the company saw great success.",
+                "She grabbed the helm to change their direction.",
+                "The old sailor knew how to handle the helm in rough seas."
+            ],
+            "word_in_context_meaning": "in charge or in a position of leadership",
+            "word_in_context_synonyms": [
+                "leadership",
+                "control",
+                "command",
+                "guidance"
+            ],
+            "word_in_context_antonyms": [
+                "followers",
+                "subordinates",
+                "underlings"
+            ],
+            "word_in_context_usage_examples": [
+                "With Halle at the helm, the future of children's entertainment looks bright.",
+                "The new CEO took the helm of the struggling company.",
+                "She has been at the helm of the project for two years.",
+                "He was at the helm of the political party during its most successful period.",
+                "The experienced coach was at the helm of the team."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "gamut",
+            "ex_limit_str": "1-5",
+            "context": "That was her wake-up call.\nAfter running through a gamut of tests to find out what was wrong, the diagnosis ended up being an \"acute case of burnout and sleep deprivation,\" or what she calls \"Civilization's Disease.\"\nWe all have problems getting enough sleep, which is what prompted Arianna to launch Thrive Global after she left the Huffington Post."
+        },
+        "prompt_output": {
+            "meaning": "the complete range or scope of something",
+            "synonyms": [
+                "range",
+                "scope",
+                "spectrum",
+                "extent",
+                "variety"
+            ],
+            "antonyms": [
+                "limitation",
+                "scarcity",
+                "lack",
+                "shortage"
+            ],
+            "usage_examples": [
+                "The store offers a wide gamut of products.",
+                "His emotions ran the full gamut from joy to despair.",
+                "We need to consider the entire gamut of possibilities.",
+                "The course covers a broad gamut of topics.",
+                "She experienced the gamut of human emotions."
+            ],
+            "word_in_context_meaning": "all the different kinds of things someone tried or experienced",
+            "word_in_context_synonyms": [
+                "variety",
+                "range",
+                "collection",
+                "series",
+                "set"
+            ],
+            "word_in_context_antonyms": [
+                "few",
+                "limited number",
+                "small amount"
+            ],
+            "word_in_context_usage_examples": [
+                "She went through a whole gamut of emotions after the news.",
+                "The doctor tried a gamut of treatments before finding the right one.",
+                "He faced a gamut of challenges in his new job.",
+                "The company offers a gamut of services.",
+                "They explored a gamut of options to solve the problem."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "throes",
+            "ex_limit_str": "1-5",
+            "context": "And ultimately, she created a new one with her husband and children.\nMaybe you're picking up this book in the throes of a difficult situation that has forced you to refocus and reprioritize.\nIf you feel like you'll never figure it out, that you'll never be able to get past the hurt to Pick Three things on your own again, take Rebecca's sage wisdom."
+        },
+        "prompt_output": {
+            "meaning": "a state of great pain, distress, or suffering",
+            "synonyms": [
+                "agony",
+                "torment",
+                "suffering",
+                "pain",
+                "distress"
+            ],
+            "antonyms": [
+                "comfort",
+                "ease",
+                "joy",
+                "peace",
+                "pleasure"
+            ],
+            "usage_examples": [
+                "The company was in the throes of bankruptcy.",
+                "He was in the throes of a terrible fever.",
+                "She was in the throes of labor.",
+                "The nation was in the throes of civil war.",
+                "They were in the throes of despair."
+            ],
+            "word_in_context_meaning": "in the middle of a very difficult or painful situation",
+            "word_in_context_synonyms": [
+                "difficulty",
+                "struggle",
+                "hardship",
+                "turmoil",
+                "crisis"
+            ],
+            "word_in_context_antonyms": [
+                "ease",
+                "calm",
+                "peace",
+                "success",
+                "solution"
+            ],
+            "word_in_context_usage_examples": [
+                "He is in the throes of a major career change.",
+                "The city is in the throes of rebuilding after the storm.",
+                "She found herself in the throes of a personal crisis.",
+                "The project is in the throes of development.",
+                "They were in the throes of a difficult decision."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "interstitial",
+            "ex_limit_str": "1-5",
+            "context": "Ellen has a great outlook on life.\nEven though she's been battling interstitial cystitis for the past six years, she's an avid reader (reading over two hundred books a year!\n), and she has personal creative pursuits that she actively enjoys, like making jewelry out of old buttons; making greeting cards from old ephemera, lace, and jewelry bits; and Web design."
+        },
+        "prompt_output": {
+            "meaning": "Something that is in the small spaces between things.",
+            "synonyms": [
+                "between",
+                "in-between",
+                "intermediate",
+                "intervening"
+            ],
+            "antonyms": [
+                "central",
+                "main",
+                "primary",
+                "core"
+            ],
+            "usage_examples": [
+                "The plant's roots grew into the interstitial spaces in the soil.",
+                "There are interstitial fluids that help transport nutrients.",
+                "The artist used interstitial patterns to fill the gaps in the design.",
+                "We need to check the interstitial areas for any signs of damage.",
+                "The report focused on interstitial data that was previously overlooked."
+            ],
+            "word_in_context_meaning": "In this case, it means a type of bladder pain that happens in the small spaces within the bladder wall.",
+            "word_in_context_synonyms": [
+                "bladder pain",
+                "chronic bladder inflammation",
+                "painful bladder syndrome"
+            ],
+            "word_in_context_antonyms": [
+                "healthy bladder",
+                "pain-free bladder",
+                "normal bladder function"
+            ],
+            "word_in_context_usage_examples": [
+                "She has been dealing with interstitial cystitis for years.",
+                "The doctor explained the condition of interstitial cystitis.",
+                "Living with interstitial cystitis can be challenging.",
+                "She manages her interstitial cystitis through diet and medication.",
+                "Interstitial cystitis affects many women."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "cystitis",
+            "ex_limit_str": "1-5",
+            "context": "Ellen has a great outlook on life.\nEven though she's been battling interstitial cystitis for the past six years, she's an avid reader (reading over two hundred books a year!\n), and she has personal creative pursuits that she actively enjoys, like making jewelry out of old buttons; making greeting cards from old ephemera, lace, and jewelry bits; and Web design."
+        },
+        "prompt_output": {
+            "meaning": "Inflammation or infection of the bladder, causing pain and discomfort when urinating.",
+            "synonyms": [
+                "bladder infection",
+                "urinary tract infection",
+                "UTI",
+                "bladder inflammation"
+            ],
+            "antonyms": [
+                "urinary health",
+                "bladder wellness",
+                "healthy bladder"
+            ],
+            "usage_examples": [
+                "She was diagnosed with cystitis and prescribed antibiotics.",
+                "Cystitis can cause a frequent and urgent need to urinate.",
+                "Drinking plenty of water may help prevent cystitis.",
+                "The doctor explained the symptoms of cystitis.",
+                "He suffered from recurrent episodes of cystitis."
+            ],
+            "word_in_context_meaning": "A long-term condition where the bladder is inflamed and painful, affecting Ellen's life for many years.",
+            "word_in_context_synonyms": [
+                "chronic bladder pain",
+                "bladder inflammation condition",
+                "long-term bladder issue"
+            ],
+            "word_in_context_antonyms": [
+                "bladder comfort",
+                "pain-free bladder",
+                "bladder relief"
+            ],
+            "word_in_context_usage_examples": [
+                "Even with interstitial cystitis, Ellen maintains a positive attitude.",
+                "She has been dealing with cystitis for six years.",
+                "Her cystitis doesn't stop her from enjoying her hobbies.",
+                "The doctor is helping Ellen manage her cystitis.",
+                "Despite her cystitis, Ellen finds joy in reading and crafting."
+            ]
+        }
+    },
+    {
+        "prompt_input": {
+            "word": "wading",
+            "ex_limit_str": "1-5",
+            "context": "Although I will always be thankful for those incredibly real connections, I think that benchmark for friendship made it all the more difficult for me to feel like I was successfully connecting with new people during the first few weeks of school.\"\nAt college, Julie had a roommate and a few others she could semi-rely on in her freshman year, but what she found most difficult was wading through the annoying (yet necessary) shallow conversations that constantly followed the same pattern: name, hometown, expected major, reason for choosing this school, etc.\nThe same is true for postcollege life, too."
+        },
+        "prompt_output": {
+            "meaning": "walking through water that is not very deep",
+            "synonyms": [
+                "stepping",
+                "trekking",
+                "traipsing",
+                "plodding"
+            ],
+            "antonyms": [
+                "running",
+                "skipping",
+                "leaping",
+                "flying"
+            ],
+            "usage_examples": [
+                "We went wading in the shallow end of the pool.",
+                "The children love wading in the creek.",
+                "He was wading through the tall grass.",
+                "Wading in the ocean can be very refreshing.",
+                "She enjoyed wading along the beach."
+            ],
+            "word_in_context_meaning": "dealing with or moving through something that is not very important or deep, like small talk",
+            "word_in_context_synonyms": [
+                "navigating",
+                "handling",
+                "managing",
+                "coping with"
+            ],
+            "word_in_context_antonyms": [
+                "avoiding",
+                "skipping",
+                "ignoring",
+                "bypassing"
+            ],
+            "word_in_context_usage_examples": [
+                "She found wading through the office politics exhausting.",
+                "He was wading through a lot of paperwork.",
+                "It took time wading through the details of the contract.",
+                "Wading through the crowd was difficult.",
+                "The detective spent weeks wading through clues."
+            ]
+        }
+    }
+]
