@@ -24,14 +24,14 @@
                     </p>
                 </div>
                 <div style="margin: 6px 0;">
-                    {% for skill in item.learnt %}
+                    <!-- {% for skill in item.tags %}
                         {% if skill != "" %}
                             <span style="display: inline-block; background: #f0f0f0; border-radius: 4px; padding: 0 6px; margin-right: 4px; margin-bottom: 2px; border: 1px solid #ddd; font-size: 0.8em; border-radius: 4px;">
                                 {{ skill }}
                             </span>
                         {% endif %}
-                    {% endfor %}
-                    <div class="paper-icons" style="display: inline-flex; align-items: center; column-gap: 8px; row-gap: 8px;">
+                    {% endfor %} -->
+                    <!-- <div class="paper-icons" style="display: inline-flex; align-items: center; column-gap: 8px; row-gap: 8px;">
                         {% if item.github != "" %}
                             <a class="paper-show-tell-ref" href="{{item.github}}" target="_blank" title="GitHub Repository" style="width: 28px; color: #607d8b;">
                                 {% include svgs/github.html %}
@@ -47,7 +47,7 @@
                                 {% include svgs/web.html %}
                             </a>
                         {% endif %}
-                    </div>
+                    </div> -->
                 </div>
                 
                 {% if item.problem != "" or item.solution != "" %}

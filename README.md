@@ -8,6 +8,7 @@ exclude_from_nav: true
 - Install Ruby and Jekyll from [here](https://jekyllrb.com/docs/installation/windows/)
 - To add dependencies:
   - add `gem <dependency-gem>` in Gemfile
+  - if jekyll is missing, run `gem install jekyll bundler`
   - run `bundle install`
 - Build site
   - run `jekyll build --watch`

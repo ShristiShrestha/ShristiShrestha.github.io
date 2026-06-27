@@ -1,5 +1,18 @@
 [
     {
+        "title": "Leveraging GPT-4o to Evaluate the Usability and Accessibility of Flutter App Interfaces",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3821215",
+        "authors": ["S. Shrestha", " and A. Mahmoud, "],
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "venue_bold": "(TOSEM)",
+        "year": "2026",
+        "problem": "In recent years, Flutter has emerged as a popular framework for building cross-platform mobile applications. However, ensuring the usability and accessibility of Flutter app interfaces remains a challenge. Developers often struggle to identify and address usability and accessibility issues, leading to suboptimal user experiences.",
+        "solution": "Built FUEL, a tool powered by GPT-4o to evaluate the usability and accessibility of Flutter app interfaces. FUEL takes a Flutter app's source code as input and generates a detailed report highlighting usability and accessibility issues, along with actionable code fixes.",
+        "data": "We evaluated FUEL on a dataset of 15 UI screens from open source Flutter apps. We recruited 15 developers to assess the usability and accessibility of these screens, and compared their evaluations with FUEL's assessments.",
+        "results": "Generic prompting can effectively identify usability and accessibility issues, suggest code-level fixes, and point out potential app store policy violations. Our exit survey revealed FUEL can save developer time in improving Flutter UIs and address issues beyond functional errors in Flutter widgets.",
+        "tags": ["LLM-based code review", "Developer study", "Static code analysis"]
+    },
+    {
         "title": "Automatic Summarization of Mobile Application Reviews using Chain of Density Prompting",
         "url": "https://arxiv.org/pdf/2506.14192",
         "authors": ["S. Shrestha", " and A. Mahmoud, "],
@@ -10,10 +23,7 @@
         "solution": "We propose an LLM-based app review summarization technique to extract and present fixed length summaries for apps. We employ the Chain of Density prompting, originally designed for news articles. From a large volume of reviews, the LLM is instructed to iteratively identify review entities and fuse them into a fixed-length summary. Unlike news articles, app reviews represent voices of thousands of users and discuss various topics related to the app.",
         "data": "Summarized a dataset of 37,245 reviews collected from eight popular apps across four diverse domains: Ride-hailing, Online Dating, Investing, and Mental Health. For fair representation of different ratings in the reviews, we employed stratified sampling based on star ratings (1-5 stars) and used Hybrid TF-IDF ranking to sample 2.8k high-information reviews. We used GPT-4 to generate abstractive summaries of the sampled reviews.",
         "results": "The modified version of CoD prompting achieved an average recall of 81% for key review entities, significantly outperforming vanilla prompts (64%) and extractive summarization (60%) baselines. Our user study with 48 participants demonstrated that the generated summaries maintained high readability even as their semantic density increased. Comparative analysis revealed that while GPT-4 produced the most balanced summaries in terms of coherence and density, Gemini-1.5-Flash and Llama-3.1 offered lower-cost alternatives with varying trade-offs in summary length and sentiment retention.",
-        "learnt": ["LLM-based text summarization", "Recall analysis", "Performance analysis of multiple LLMs", "Cost-latency analysis of LLMs", "Review entity analysis", "Readability user study", "Non-parametric statistical analysis"],
-        "github": "https://github.com/ShristiShrestha/Summarize-Mobile-App-Reviews",
-        "prototype": "https://github.com/ShristiShrestha/Summarize-Mobile-App-Reviews",
-        "figma": "https://github.com/ShristiShrestha/Summarize-Mobile-App-Reviews"
+        "tags": ["LLM-based text summarization", "Recall analysis", "Performance analysis of multiple LLMs", "Cost-latency analysis of LLMs", "Review entity analysis", "Readability user study", "Non-parametric statistical analysis"]
     },
     {
         "title": "No Country for Indie Developers: A Study of Google Play's Closed Testing Requirements for New Personal Developer Accounts",
@@ -26,10 +36,7 @@
         "solution": "We conducted a mixed-method study to uncover how developers are surviving the policy. First, we performed qualitative thematic analysis of Reddit comments about the policy. Second, we ran a 15-min survey with developers who faced the policy in releasing their own apps on Play Store.",
         "data": "We analyzed 897 comments from 564 users posted on 38 subreddit threads. Then, we surveyed 14 indie developers, asking them two questions about the policy: a) strategies to comply with the policy, b) assessment of the policy requirements.",
         "results": "We found developers expressing frustration on several Reddit posts and shared their logistical barriers to adopting the policy. Several job posts appeared on online Gig platforms like Fiverr asking/calling for testers. Redditors reported concerns over such growing a market (e.g., `potential scams`, `black market`, `sweatshops`). Occasionally, developers expressed that the policy discriminated them in favor of corporate developers.",
-        "learnt": ["Qualitative thematic analysis",  "Developer survey", "Inter-rater reliability", "Play Store App Testing Policy"],
-        "github": "https://github.com/ShristiShrestha/Google-App-Testing-Policy-Analysis",
-        "prototype": "",
-        "figma": ""         
+        "tags": ["Qualitative thematic analysis",  "Developer survey", "Inter-rater reliability", "Play Store App Testing Policy"]     
     },
     {
         "title": "Generating Rate Features for Mobile Applications",
@@ -42,9 +49,6 @@
         "solution": "We developed an automated, unsupervised pipeline that uses a large language model (LLM) to generate `Rate Features` from long, unstructured app reviews. `Rate features` are neutral, domain-specific, concise summaries  (2-3 words) of the reviews. We first filter informative reviews using Hybrid TF.IDF extractive summarization method. Then, we use GPT-3.5-turbo to generate `Rate Features` from the filtered reviews.",
         "data": "Generated `Rate Features` from 167k reviews of 90 popular apps across three domains: Ride-hailing, Mental Health, and Investing. ",
         "results": "We found that LLMs identified user goals described in the reviews as the best candidates for Rate features. Top three frequently appearing `Rate Features` recalled 95-100% of the user goals in the analyzed review dataset.",
-        "learnt": ["Prompt engineering and analysis", "Zero-shot prompting", "NLTK", "Gensim", "GloVe embeddings", "Qualitative thematic analysis", "Recall analysis", "Pandas", "Scikit-learn"],
-        "github": "https://github.com/ShristiShrestha/Generate-App-Rate-Features",
-        "prototype": "https://github.com/ShristiShrestha/Generate-App-Rate-Features",
-        "figma": "https://github.com/ShristiShrestha/Generate-App-Rate-Features"
+        "tags": ["Prompt engineering and analysis", "Zero-shot prompting", "NLTK", "Gensim", "GloVe embeddings", "Qualitative thematic analysis", "Recall analysis", "Pandas", "Scikit-learn"]
     }
 ]
